@@ -32,14 +32,12 @@ sealed interface Load<out T> {
 }
 
 /** Runs [block] and wraps its result or a readable error. */
-suspend fun <T> load(isDemo: Boolean, block: suspend () -> T): Load<T> = try {
+suspend fun <T> load(block: suspend () -> T): Load<T> = try {
     Load.Ready(block())
 } catch (e: CancellationException) {
     throw e
 } catch (e: JikanException.NotFound) {
-    Load.Failed(
-        if (isDemo) "This title is not part of the offline demo data." else "MyAnimeList has no entry for this.",
-    )
+    Load.Failed("MyAnimeList has no entry for this.")
 } catch (e: JikanException.RateLimited) {
     Load.Failed("Jikan asked us to slow down. Wait a moment and try again.")
 } catch (e: JikanException.Network) {
@@ -73,7 +71,6 @@ fun LoadingState(modifier: Modifier = Modifier) {
 fun ErrorState(
     message: String,
     onRetry: () -> Unit,
-    onUseDemo: (() -> Unit)?,
     onBack: (() -> Unit)?,
     modifier: Modifier = Modifier,
 ) {
@@ -96,7 +93,6 @@ fun ErrorState(
         )
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             PillButton(text = "Try again", onClick = onRetry, modifier = Modifier.focusRequester(retryFocus), primary = true)
-            if (onUseDemo != null) PillButton(text = "Use offline demo data", onClick = onUseDemo)
             if (onBack != null) PillButton(text = "Back", onClick = onBack)
         }
     }

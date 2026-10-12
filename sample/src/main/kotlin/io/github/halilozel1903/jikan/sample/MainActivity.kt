@@ -13,16 +13,15 @@ import androidx.tv.material3.SurfaceDefaults
 import androidx.tv.material3.darkColorScheme
 
 /**
- * An Android TV anime browser built on jikan-kotlin. A normal launch loads the live Jikan API (with Coil for the
- * cover images) and offers bundled demo data when Jikan cannot be reached.
+ * An Android TV anime browser built on jikan-kotlin. It loads the live Jikan API, with Coil for the MyAnimeList
+ * cover images.
  *
  * D-pad presses can't be timed reliably through adb on a fresh emulator, so `scripts/screenshots.sh` starts the app
- * with `--es scene <scene>` to open a fixed screen. Scenes read the bundled JSON fixtures, draw original cover art
- * and never touch the network:
+ * with `--es scene <scene>` to open a fixed screen. Scenes load live data like a normal launch:
  *
- * - `home`: the hero for the current season's top show and the rails, "More info" focused
- * - `detail`: "Harbor of a Thousand Bells" with its synopsis, score, episodes and characters
- * - `season`: the summer 2026 season grid with the season picker
+ * - `home`: the hero for the current season's best rated show and the rails, "More info" focused
+ * - `detail`: Fullmetal Alchemist: Brotherhood with its synopsis, score, episodes and characters
+ * - `season`: the summer 2024 season grid with the season picker
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,8 +37,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     SampleApp(
                         scene = scene,
-                        liveRepository = { Repositories.live(applicationContext) },
-                        demoRepository = { Repositories.demo(applicationContext) },
+                        repository = if (scene != null) Repositories.scenes() else Repositories.live(),
                     )
                 }
             }

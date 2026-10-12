@@ -15,10 +15,37 @@ install_sample() {
   dismiss_system_dialogs
 }
 
+# Scenes load live data, then log "SCENE_READY <scene>" under this tag once their data and every
+# image on screen have loaded, or "SCENE_FAILED <scene>: <reason>" when they show an error.
+SCENE_TAG="${SCENE_TAG:-JikanScene}"
+
 fresh_launch() {
   adb shell pm clear "$PKG" > /dev/null
+  adb logcat -c || true
   adb shell am start -W -n "$PKG/.MainActivity" "$@" > /dev/null
-  sleep 8
+}
+
+# Waits until the scene reports that it is complete. Fails on an error state or after a timeout, so a
+# screen that did not load never replaces a good screenshot.
+wait_for_scene() {
+  local scene="$1" timeout="${2:-150}" log=""
+  for _ in $(seq 1 "$timeout"); do
+    log="$(adb logcat -d -s "$SCENE_TAG:*" 2> /dev/null || true)"
+    if printf '%s' "$log" | grep -q "SCENE_FAILED"; then
+      echo "The $scene scene failed to load:" >&2
+      printf '%s\n' "$log" | grep "SCENE_" >&2
+      exit 1
+    fi
+    if printf '%s' "$log" | grep -q "SCENE_READY $scene"; then
+      echo "Scene $scene is ready"
+      sleep 1
+      return 0
+    fi
+    sleep 1
+  done
+  echo "The $scene scene did not finish loading within ${timeout}s." >&2
+  adb logcat -d -t 200 >&2 || true
+  exit 1
 }
 
 dismiss_system_dialogs() {

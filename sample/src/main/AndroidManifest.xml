@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- The normal launch loads the live Jikan API; screenshot scenes use bundled fixtures and never the network. -->
+    <!-- Everything, the screenshot scenes included, loads the live Jikan API and MyAnimeList's images. -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Runs on Android TV, and still installs on phones and tablets for development. -->

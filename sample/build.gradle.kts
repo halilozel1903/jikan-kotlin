@@ -38,13 +38,6 @@ android {
     }
 }
 
-androidComponents {
-    onVariants { variant ->
-        // The demo mode and the screenshot scenes read the same JSON fixtures as the library's unit tests.
-        variant.sources.assets?.addStaticSourceDirectory("../jikan/src/test/resources")
-    }
-}
-
 dependencies {
     implementation(project(":jikan-tv"))
     // The sample shares OkHttp with Coil; without this line the client uses Ktor's CIO engine.

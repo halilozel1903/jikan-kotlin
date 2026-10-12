@@ -2,7 +2,7 @@ package io.github.halilozel1903.jikan.sample
 
 import io.github.halilozel1903.jikan.Season
 
-/** Screenshot scenes, picked with the `scene` intent extra. They use the bundled fixtures, never the network. */
+/** Screenshot scenes, picked with the `scene` intent extra. They load live data from the Jikan API. */
 enum class Scene(val key: String) {
     Home("home"),
     Detail("detail"),
@@ -17,9 +17,11 @@ enum class Scene(val key: String) {
     }
 
     companion object {
-        /** "Harbor of a Thousand Bells", the fixture with episodes, characters and recommendations. */
-        const val DETAIL_ID = 60201
-        const val SEASON_YEAR = 2026
+        /** Fullmetal Alchemist: Brotherhood, a finished show whose page does not change from week to week. */
+        const val DETAIL_ID = 5114
+
+        /** A past season, so the grid stays the same between runs. */
+        const val SEASON_YEAR = 2024
         val SEASON = Season.Summer
 
         fun from(key: String?): Scene? = entries.firstOrNull { it.key == key }

@@ -28,20 +28,20 @@ val summer = jikan.season(2026, Season.Summer).data
 val anime = jikan.animeFull(52991)
 anime.genres.map { it.name }                     // [Adventure, Drama, Fantasy]
 anime.images.large                               // the large WebP cover url
-jikan.animeCharacters(52991).first().voiceActor()?.displayName   // the Japanese voice actor, "Given Family"
+jikan.animeCharacters(52991).first().voiceActor()?.displayName   // the Japanese voice actor, given name first
 ```
 
 ## Screenshots
 
-Captured from the sample app on an Android TV emulator (1080p) by CI. The screenshot scenes load bundled JSON fixtures written in Jikan's format and draw original cover art procedurally, so they never depend on the network and this repository contains no real anime artwork. The titles in the screenshots are made up for the fixtures. In normal use the app loads the live API and MyAnimeList's cover images.
+Captured live from the Jikan API by CI, with the sample app on an Android TV emulator (1080p). Titles, scores, episodes, characters and cover images are real MyAnimeList data as Jikan returned it on the day of the capture; the home screen follows the current season, so it changes from run to run.
 
 **Home:** the hero for the current season's best rated show, then rails for top airing, this season, upcoming and two genres.
 
-<img src="docs/screenshots/tv-home.png" alt="The Android TV home screen: a hero for Starlit Cartographers with its score, genres, synopsis and a focused More info button, above a Top airing rail of drawn posters" width="100%">
+<img src="docs/screenshots/tv-home.png" alt="The Android TV home screen: a hero for the current season's best rated show with its score, genres, synopsis, cover and a focused More info button, above a Top airing rail of covers" width="100%">
 
 | Anime detail | Season browser |
 | :---: | :---: |
-| <img src="docs/screenshots/tv-detail.png" alt="The detail screen of Harbor of a Thousand Bells: poster, score 8.88, rank, popularity and members, genres and synopsis, a row of episodes with the first one focused, and characters with their voice actors" width="420"> | <img src="docs/screenshots/tv-season.png" alt="The summer 2026 season: a row of season choices with Summer 2026 selected, and a grid of posters with the first one focused" width="420"> |
+| <img src="docs/screenshots/tv-detail.png" alt="The detail screen of Fullmetal Alchemist: Brotherhood: cover, score, rank, popularity and members, genres and synopsis, a row of episodes with the first one focused, and characters with their voice actors" width="420"> | <img src="docs/screenshots/tv-season.png" alt="The summer 2024 season: a row of season choices with Summer 2024 selected, and a grid of covers with the first one focused" width="420"> |
 
 ## Features
 
@@ -52,9 +52,9 @@ Captured from the sample app on an Android TV emulator (1080p) by CI. The screen
 - **Retries** for network errors and `5xx` answers, with exponential backoff.
 - **Paging**: `pages { page -> ... }` and ready-made `searchAnimePages`, `topAnimePages`, `seasonNowPages`, `episodePages` as cold `Flow`s that request the next page only when you collect it. `.items()` flattens them to entries.
 - **Caching**: an in-memory LRU cache with a TTL (Jikan itself caches MyAnimeList for 24 hours), pluggable through `JikanCache`, and identical requests running at the same time share one network call. `randomAnime()` is never cached.
-- **Display helpers**: `displayTitle`, `seasonLabel` (`"Fall 2026"`), `allGenres`, `"Family, Given"` names as `"Given Family"`, `JikanFormat.score`, `compactCount` (`41.3K`) and `summary` (`"TV · 12 eps · Fall 2026 · Studio Lumen"`).
+- **Display helpers**: `displayTitle`, `seasonLabel` (`"Fall 2026"`), `allGenres`, `"Family, Given"` names as `"Given Family"`, `JikanFormat.score`, `compactCount` (`41.3K`) and `summary` (`"TV · 28 eps · Fall 2023 · Madhouse"`).
 - **Pluggable HTTP**: Ktor with the CIO engine by default; pass OkHttp, Android, Java or a `MockEngine`, a ready `HttpClient`, or replace HTTP with your own `JikanTransport`.
-- **Test fixtures**: `FixtureTransport` serves JSON files by url, for your own unit tests and offline demos.
+- **Test fixtures**: `FixtureTransport` serves JSON files by url, for your own unit tests.
 - **Compose for TV helpers** (optional module): `PosterCard` and `AnimePosterCard` with a focus scale, glow and border, `ScoreBadge`, `GenreChips`, `RailTitle`, `PosterRail` and `AnimeRail`.
 - **Explicit API**, unit tested with Ktor's `MockEngine` against hand-written fixtures in Jikan's JSON format.
 
@@ -263,7 +263,7 @@ Cards are 2:3 like MyAnimeList's covers, grow by `JikanTvDefaults.FocusedScale` 
 
 ## Sample app
 
-The `sample` module is an Android TV anime browser: a hero for the current season's best rated show, rails for top airing, this season, upcoming, Fantasy and Sci-Fi, a detail screen with synopsis, score, rank, popularity, members, genres, episodes, characters with their Japanese voice actors, recommendations and theme songs, and a season browser with a grid and a season picker built from `/seasons`. It uses the live API with OkHttp as the Ktor engine and Coil for cover images, and offers bundled demo data when it cannot reach Jikan.
+The `sample` module is an Android TV anime browser: a hero for the current season's best rated show, rails for top airing, this season, upcoming, Fantasy and Sci-Fi, a detail screen with synopsis, score, rank, popularity, members, genres, episodes, characters with their Japanese voice actors, recommendations and theme songs, and a season browser with a grid and a season picker built from `/seasons`. It uses the live API with OkHttp as the Ktor engine and Coil for cover images.
 
 For screenshots it opens a fixed screen from an intent extra (used by `scripts/screenshots.sh`):
 
@@ -272,7 +272,7 @@ For screenshots it opens a fixed screen from an intent extra (used by `scripts/s
 adb shell am start -n io.github.halilozel1903.jikan.sample/.MainActivity --es scene detail
 ```
 
-`scene` is one of `home`, `detail` or `season`. These scenes read the same JSON fixtures as the unit tests and draw original cover art instead of loading images. CI captures them as `tv-home.png`, `tv-detail.png` and `tv-season.png` on an Android TV emulator, checks each capture for the screen's text and fails on blank images.
+`scene` is one of `home` (the current season), `detail` (Fullmetal Alchemist: Brotherhood) or `season` (summer 2024). Scenes load live data through the same client, rate limiter and retries as a normal launch, and log `SCENE_READY` once the data and every image on screen have loaded. CI captures them as `tv-home.png`, `tv-detail.png` and `tv-season.png` on an Android TV emulator, and fails instead of capturing when a scene shows an error, does not finish loading, misses the expected text or is blank.
 
 ## Be nice to Jikan
 
@@ -292,7 +292,7 @@ Kotlin 2.4 · Ktor 3.6 (CIO, OkHttp) · kotlinx.serialization · kotlinx.corouti
 
 ## Legal
 
-Data comes from [Jikan](https://jikan.moe), the unofficial MyAnimeList API. This project is not affiliated with or endorsed by Jikan or MyAnimeList. MyAnimeList is a trademark of its owner. Anime titles, synopses and images returned by the API belong to their respective owners. This repository does not include real anime artwork: the screenshots show fictional titles from the test fixtures and cover art drawn by the sample app.
+Data comes from [Jikan](https://jikan.moe), the unofficial MyAnimeList API. This project is not affiliated with or endorsed by Jikan or MyAnimeList. MyAnimeList is a trademark of its owner. Anime titles, synopses and images returned by the API belong to their respective owners. The screenshots show data and cover images loaded from the Jikan API; this repository does not otherwise include anime artwork.
 
 ## License
 

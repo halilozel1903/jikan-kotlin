@@ -6,13 +6,13 @@ import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
 /**
- * The sample's screenshot scenes read these fixtures through FixtureTransport. This test makes exactly the calls of
- * `sample/.../AnimeRepository.kt`, so a renamed fixture or a changed parameter fails here instead of on the emulator.
+ * Makes the calls of the sample's `AnimeRepository` (home, detail and season screens) against the hand-written test
+ * fixtures, checking that the client builds the urls those screens use and decodes their responses.
  */
 class SampleFixturesTest {
 
     @Test
-    fun homeSceneFixturesExist() = runTest {
+    fun homeScreenCalls() = runTest {
         MockJikan().use { api ->
             val season = api.client.seasonNow(sfw = true, limit = 24).data
             val hero = season.filter { it.score != null }.maxBy { it.score!! }
@@ -30,7 +30,7 @@ class SampleFixturesTest {
     }
 
     @Test
-    fun detailSceneFixturesExist() = runTest {
+    fun detailScreenCalls() = runTest {
         MockJikan().use { api ->
             assertEquals("Harbor of a Thousand Bells", api.client.animeFull(60201).displayTitle)
             assertEquals(14, api.client.animeEpisodes(60201).data.size)
@@ -40,7 +40,7 @@ class SampleFixturesTest {
     }
 
     @Test
-    fun seasonSceneFixturesExist() = runTest {
+    fun seasonScreenCalls() = runTest {
         MockJikan().use { api ->
             val archive = api.client.seasonList()
             assertTrue(archive.any { it.year == 2026 && "summer" in it.seasons })

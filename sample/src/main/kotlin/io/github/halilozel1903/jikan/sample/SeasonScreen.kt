@@ -51,11 +51,12 @@ fun SeasonScreen(
     var attempt by remember { mutableIntStateOf(0) }
     val state by produceState<Load<SeasonData>>(Load.Loading, year, season, repository, attempt) {
         value = Load.Loading
-        value = load(repository.isDemo) { repository.season(year, season) }
+        value = load { repository.season(year, season) }
     }
+    ReportLoad(state)
     when (val current = state) {
         Load.Loading -> LoadingState()
-        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onUseDemo = null, onBack = onBack)
+        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onBack = onBack)
         is Load.Ready -> SeasonContent(current.value, onOpenAnime, onSelectSeason)
     }
 }
@@ -165,7 +166,7 @@ private fun SeasonContent(
                         .fillMaxWidth()
                         .then(if (index == 0) Modifier.focusRequester(firstCard) else Modifier),
                 ) { item ->
-                    AnimeArtwork(item.malId, item.images.large, item.displayTitle, Modifier.fillMaxSize())
+                    RemoteImage(item.images.large, item.displayTitle, Modifier.fillMaxSize())
                 }
             }
         }

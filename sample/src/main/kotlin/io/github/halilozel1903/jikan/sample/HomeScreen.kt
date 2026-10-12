@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,6 +17,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
 import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -28,6 +30,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.blur
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Brush
@@ -54,16 +59,16 @@ fun HomeScreen(
     repository: AnimeRepository,
     onOpenAnime: (Int) -> Unit,
     onOpenSeasons: () -> Unit,
-    onUseDemo: (() -> Unit)?,
 ) {
     var attempt by remember { mutableIntStateOf(0) }
     val state by produceState<Load<HomeData>>(Load.Loading, repository, attempt) {
         value = Load.Loading
-        value = load(repository.isDemo) { repository.home() }
+        value = load { repository.home() }
     }
+    ReportLoad(state)
     when (val current = state) {
         Load.Loading -> LoadingState()
-        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onUseDemo = onUseDemo, onBack = null)
+        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onBack = null)
         is Load.Ready -> HomeContent(current.value, onOpenAnime, onOpenSeasons)
     }
 }
@@ -122,7 +127,7 @@ private fun LazyListScope.rail(
             trailing = trailing,
             cardWidth = HomeCardWidth,
         ) { item ->
-            AnimeArtwork(item.malId, item.images.large, item.displayTitle, Modifier.fillMaxSize())
+            RemoteImage(item.images.large, item.displayTitle, Modifier.fillMaxSize())
         }
     }
 }
@@ -135,14 +140,16 @@ private fun Hero(anime: Anime, onMoreInfo: () -> Unit, onOpenSeasons: () -> Unit
             .fillMaxWidth()
             .height(284.dp),
     ) {
-        AnimeArtwork(
-            seed = anime.malId,
-            imageUrl = anime.images.large,
+        // The cover, blurred and faded, as a backdrop; MyAnimeList covers are too small to show sharp at this size.
+        RemoteImage(
+            url = anime.images.large,
             contentDescription = null,
             modifier = Modifier
                 .align(Alignment.TopEnd)
                 .fillMaxHeight()
-                .fillMaxWidth(0.62f),
+                .fillMaxWidth(0.62f)
+                .blur(28.dp)
+                .alpha(0.55f),
         )
         Box(
             Modifier
@@ -160,6 +167,16 @@ private fun Hero(anime: Anime, onMoreInfo: () -> Unit, onOpenSeasons: () -> Unit
             Modifier
                 .matchParentSize()
                 .background(Brush.verticalGradient(0.55f to Color.Transparent, 1f to colors.background)),
+        )
+        RemoteImage(
+            url = anime.images.large,
+            contentDescription = anime.displayTitle,
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(top = 24.dp, end = JikanTvDefaults.HorizontalPadding)
+                .height(236.dp)
+                .aspectRatio(JikanTvDefaults.PosterAspectRatio)
+                .clip(RoundedCornerShape(10.dp)),
         )
         Column(
             Modifier

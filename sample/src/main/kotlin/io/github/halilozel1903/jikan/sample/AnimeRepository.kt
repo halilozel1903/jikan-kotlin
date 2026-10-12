@@ -1,6 +1,5 @@
 package io.github.halilozel1903.jikan.sample
 
-import android.content.Context
 import io.github.halilozel1903.jikan.AnimeOrderBy
 import io.github.halilozel1903.jikan.AnimeSearchQuery
 import io.github.halilozel1903.jikan.JikanClient
@@ -13,15 +12,10 @@ import io.github.halilozel1903.jikan.model.AnimeCharacter
 import io.github.halilozel1903.jikan.model.Episode
 import io.github.halilozel1903.jikan.model.Recommendation
 import io.github.halilozel1903.jikan.model.SeasonArchive
-import io.github.halilozel1903.jikan.transport.FixtureTransport
-import io.github.halilozel1903.jikan.transport.JikanTransport
 import io.ktor.client.engine.okhttp.OkHttp
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.withContext
-import java.io.IOException
 import java.util.Calendar
 
 /** A rail of the home screen built from a genre search. */
@@ -54,10 +48,13 @@ data class SeasonData(
 )
 
 /**
- * The sample's only data source; every request goes through [JikanClient], its rate limiter and its cache.
- * `SampleFixturesTest` in the `jikan` module makes the same calls against the fixtures the screenshot scenes use.
+ * The sample's only data source: the live Jikan API. Every request goes through [JikanClient], its rate limiter
+ * (3 per second, 60 per minute), its retries and its cache.
+ *
+ * When [strict], a failing extra section (episodes, characters, a rail) fails the whole screen instead of being left
+ * out. Screenshot scenes use this, so a half loaded screen fails CI rather than ending up in the README.
  */
-class AnimeRepository(private val client: JikanClient, val isDemo: Boolean) {
+class AnimeRepository(private val client: JikanClient, private val strict: Boolean = false) {
 
     suspend fun home(): HomeData = coroutineScope {
         val season = async { client.seasonNow(sfw = true, limit = 24).data }
@@ -89,12 +86,7 @@ class AnimeRepository(private val client: JikanClient, val isDemo: Boolean) {
         val episodes = async { optional { client.animeEpisodes(id).data } }
         val characters = async { optional { client.animeCharacters(id) } }
         val recommendations = async { optional { client.animeRecommendations(id) } }
-        val anime = try {
-            client.animeFull(id)
-        } catch (e: JikanException.NotFound) {
-            // The bundled demo data only has the full record of some titles.
-            client.anime(id)
-        }
+        val anime = client.animeFull(id)
         DetailData(
             anime = anime,
             episodes = episodes.await().distinctBy { it.malId },
@@ -116,6 +108,7 @@ class AnimeRepository(private val client: JikanClient, val isDemo: Boolean) {
     private suspend fun <T> optional(block: suspend () -> List<T>): List<T> = try {
         block()
     } catch (e: JikanException) {
+        if (strict) throw e
         emptyList()
     }
 
@@ -131,38 +124,25 @@ class AnimeRepository(private val client: JikanClient, val isDemo: Boolean) {
     }
 }
 
-/** One repository for the live API and one for the bundled fixtures, created on first use. */
+/** The app's repositories, created on first use. */
 object Repositories {
     private var live: AnimeRepository? = null
-    private var demo: AnimeRepository? = null
+    private var scenes: AnimeRepository? = null
 
-    @Synchronized
-    fun live(context: Context): AnimeRepository = live ?: AnimeRepository(
-        JikanClient {
-            // Shares OkHttp with Coil. The client keeps the default limiter (3 per second, 60 per minute).
-            engine = OkHttp.create()
-            userAgent = "jikan-kotlin-sample/1.0.0 (+https://github.com/halilozel1903/jikan-kotlin)"
-        },
-        isDemo = false,
-    ).also { live = it }
+    private fun client(retries: Int) = JikanClient {
+        // Shares OkHttp with Coil. The client keeps the default limiter (3 per second, 60 per minute), shared by
+        // every client in the process.
+        engine = OkHttp.create()
+        userAgent = "jikan-kotlin-sample/1.0.0 (+https://github.com/halilozel1903/jikan-kotlin)"
+        this.retries = retries
+        rateLimitRetries = retries + 1
+    }
 
+    /** Normal use: a failing extra section is left out. */
     @Synchronized
-    fun demo(context: Context): AnimeRepository = demo ?: run {
-        val assets = context.applicationContext.assets
-        val fixtures = FixtureTransport { path ->
-            try {
-                assets.open("fixtures/$path").bufferedReader().use { it.readText() }
-            } catch (e: IOException) {
-                null
-            }
-        }
-        AnimeRepository(
-            JikanClient {
-                transport = JikanTransport { url -> withContext(Dispatchers.IO) { fixtures.get(url) } }
-                // Local files: no need to space out requests.
-                rateLimiter = null
-            },
-            isDemo = true,
-        )
-    }.also { demo = it }
+    fun live(): AnimeRepository = live ?: AnimeRepository(client(retries = 2)).also { live = it }
+
+    /** Screenshot scenes: more retries for a busy CI network, and every section must load. */
+    @Synchronized
+    fun scenes(): AnimeRepository = scenes ?: AnimeRepository(client(retries = 4), strict = true).also { scenes = it }
 }

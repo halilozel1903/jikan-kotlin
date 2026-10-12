@@ -5,28 +5,21 @@ import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.gestures.LocalBringIntoViewSpec
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveableStateHolder
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 
 /**
- * The app: a small back stack of [Screen]s. Scenes always use the bundled demo data; a normal launch uses the live
- * API and can switch to the demo data from the error screen.
+ * The app: a small back stack of [Screen]s, all loaded from the live Jikan API. A screenshot [scene] opens a fixed
+ * back stack and reports to a [SceneMonitor] when its data and images have loaded.
  */
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
-fun SampleApp(
-    scene: Scene?,
-    liveRepository: () -> AnimeRepository,
-    demoRepository: () -> AnimeRepository,
-) {
-    var demo by remember { mutableStateOf(scene != null) }
-    val repository = remember(demo) { if (demo) demoRepository() else liveRepository() }
+fun SampleApp(scene: Scene?, repository: AnimeRepository) {
+    val monitor = remember(scene) { scene?.let { SceneMonitor(it) } }
+    monitor?.Report()
     val stack = remember {
         mutableStateListOf<Screen>().apply { addAll(scene?.backStack() ?: listOf(Screen.Home)) }
     }
@@ -40,7 +33,7 @@ fun SampleApp(
 
     val screen = stack.last()
     CompositionLocalProvider(
-        LocalDemoArtwork provides demo,
+        LocalSceneMonitor provides monitor,
         LocalBringIntoViewSpec provides bringIntoView,
     ) {
         stateHolder.SaveableStateProvider(screen.toString()) {
@@ -50,9 +43,8 @@ fun SampleApp(
                     onOpenAnime = { open(Screen.Detail(it)) },
                     onOpenSeasons = {
                         val (year, season) = AnimeRepository.currentSeason()
-                        open(Screen.SeasonBrowser(if (demo) Scene.SEASON_YEAR else year, if (demo) Scene.SEASON else season))
+                        open(Screen.SeasonBrowser(year, season))
                     },
-                    onUseDemo = if (demo) null else ({ demo = true }),
                 )
                 is Screen.Detail -> DetailScreen(
                     id = screen.id,

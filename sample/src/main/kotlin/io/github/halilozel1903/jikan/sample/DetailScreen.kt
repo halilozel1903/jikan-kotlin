@@ -31,6 +31,8 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.withFrameNanos
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.blur
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
@@ -67,11 +69,12 @@ fun DetailScreen(
     var attempt by remember { mutableIntStateOf(0) }
     val state by produceState<Load<DetailData>>(Load.Loading, id, repository, attempt) {
         value = Load.Loading
-        value = load(repository.isDemo) { repository.detail(id) }
+        value = load { repository.detail(id) }
     }
+    ReportLoad(state)
     when (val current = state) {
         Load.Loading -> LoadingState()
-        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onUseDemo = null, onBack = onBack)
+        is Load.Failed -> ErrorState(current.message, onRetry = { attempt++ }, onBack = onBack)
         is Load.Ready -> DetailContent(current.value, onOpenAnime)
     }
 }
@@ -170,7 +173,7 @@ private fun DetailContent(data: DetailData, onOpenAnime: (Int) -> Unit) {
                         subtitle = "${recommendation.votes} votes",
                         width = 96.dp,
                     ) {
-                        AnimeArtwork(entry.malId, entry.images.large, entry.title, Modifier.fillMaxSize())
+                        RemoteImage(entry.images.large, entry.title, Modifier.fillMaxSize())
                     }
                 }
             }
@@ -193,14 +196,15 @@ private fun Header(anime: Anime) {
     val colors = MaterialTheme.colorScheme
     Box(Modifier.fillMaxWidth()) {
         Box(Modifier.matchParentSize()) {
-            AnimeArtwork(
-                seed = anime.malId,
-                imageUrl = anime.images.large,
+            RemoteImage(
+                url = anime.images.large,
                 contentDescription = null,
                 modifier = Modifier
                     .align(Alignment.TopEnd)
                     .fillMaxHeight()
-                    .fillMaxWidth(0.5f),
+                    .fillMaxWidth(0.5f)
+                    .blur(28.dp)
+                    .alpha(0.5f),
             )
             Box(
                 Modifier
@@ -223,9 +227,8 @@ private fun Header(anime: Anime) {
         Row(
             Modifier.padding(start = JikanTvDefaults.HorizontalPadding, end = JikanTvDefaults.HorizontalPadding, top = 28.dp),
         ) {
-            AnimeArtwork(
-                seed = anime.malId,
-                imageUrl = anime.images.large,
+            RemoteImage(
+                url = anime.images.large,
                 contentDescription = anime.displayTitle,
                 modifier = Modifier
                     .width(150.dp)
@@ -407,7 +410,7 @@ private fun CharacterCard(character: AnimeCharacter, modifier: Modifier = Modifi
     ) {
         Row(Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
             val ref = character.character
-            Avatar(seed = ref.malId, name = ref.name, imageUrl = ref.images.jpg.imageUrl, size = 52.dp)
+            Avatar(name = ref.name, imageUrl = ref.images.jpg.imageUrl, size = 52.dp)
             Spacer(Modifier.width(12.dp))
             Column(Modifier.weight(1f)) {
                 Text(
