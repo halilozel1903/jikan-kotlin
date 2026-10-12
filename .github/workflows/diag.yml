@@ -1,0 +1,12 @@
+name: Network diagnostics
+on: push
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in https://api.jikan.moe/v4/anime/5114 http://api.jikan.moe/v4/anime/5114 https://jikan.moe https://docs.api.jikan.moe https://cdn.myanimelist.net/images/anime/1208/94745.jpg https://myanimelist.net https://pokeapi.co/api/v2/pokemon/25; do
+            echo "== $u"; curl -sS -4 -m 25 -o /dev/null -w '%{http_code} %{remote_ip} %{time_total}s\n' "$u" || true
+          done
+          dig +short api.jikan.moe A; dig +short api.jikan.moe AAAA
+          curl -sS -m 10 https://ifconfig.me || true
