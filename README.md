@@ -280,7 +280,7 @@ Kotlin 2.4 · Ktor 3.6 (CIO, OkHttp) · kotlinx.serialization · kotlinx.corouti
 
 ## Legal
 
-Data comes from [Jikan](https://jikan.moe), the unofficial MyAnimeList API. This project is not affiliated with or endorsed by Jikan or MyAnimeList. MyAnimeList is a trademark of its owner. Anime titles, synopses and images returned by the API belong to their respective owners. The screenshots show data and cover images loaded from the Jikan API; this repository does not otherwise include anime artwork.
+Data comes from [Jikan](https://jikan.moe), the unofficial MyAnimeList API. This project is not affiliated with or endorsed by Jikan or MyAnimeList. MyAnimeList is a trademark of its owner. Anime titles, synopses and images returned by the API belong to their respective owners. This repository does not include anime artwork.
 
 ## License
 
