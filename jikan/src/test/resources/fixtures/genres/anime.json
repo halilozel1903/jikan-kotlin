@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "mal_id": 1,
+      "name": "Action",
+      "url": "https://myanimelist.net/anime/genre/1/Action",
+      "count": 5120
+    },
+    {
+      "mal_id": 2,
+      "name": "Adventure",
+      "url": "https://myanimelist.net/anime/genre/2/Adventure",
+      "count": 4010
+    },
+    {
+      "mal_id": 4,
+      "name": "Comedy",
+      "url": "https://myanimelist.net/anime/genre/4/Comedy",
+      "count": 7600
+    },
+    {
+      "mal_id": 7,
+      "name": "Mystery",
+      "url": "https://myanimelist.net/anime/genre/7/Mystery",
+      "count": 940
+    },
+    {
+      "mal_id": 8,
+      "name": "Drama",
+      "url": "https://myanimelist.net/anime/genre/8/Drama",
+      "count": 3150
+    },
+    {
+      "mal_id": 10,
+      "name": "Fantasy",
+      "url": "https://myanimelist.net/anime/genre/10/Fantasy",
+      "count": 4170
+    },
+    {
+      "mal_id": 22,
+      "name": "Romance",
+      "url": "https://myanimelist.net/anime/genre/22/Romance",
+      "count": 2010
+    },
+    {
+      "mal_id": 24,
+      "name": "Sci-Fi",
+      "url": "https://myanimelist.net/anime/genre/24/Sci-Fi",
+      "count": 3290
+    },
+    {
+      "mal_id": 30,
+      "name": "Sports",
+      "url": "https://myanimelist.net/anime/genre/30/Sports",
+      "count": 870
+    },
+    {
+      "mal_id": 36,
+      "name": "Slice of Life",
+      "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life",
+      "count": 2300
+    },
+    {
+      "mal_id": 37,
+      "name": "Supernatural",
+      "url": "https://myanimelist.net/anime/genre/37/Supernatural",
+      "count": 1690
+    },
+    {
+      "mal_id": 41,
+      "name": "Suspense",
+      "url": "https://myanimelist.net/anime/genre/41/Suspense",
+      "count": 470
+    },
+    {
+      "mal_id": 46,
+      "name": "Award Winning",
+      "url": "https://myanimelist.net/anime/genre/46/Award_Winning",
+      "count": 260
+    },
+    {
+      "mal_id": 47,
+      "name": "Gourmet",
+      "url": "https://myanimelist.net/anime/genre/47/Gourmet",
+      "count": 160
+    }
+  ]
+}

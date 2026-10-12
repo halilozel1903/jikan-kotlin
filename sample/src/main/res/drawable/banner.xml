@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320 x 180 dp launcher banner for Android TV: a night sky over hills with a row of drawn posters. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:pathData="M0,0h320v180h-320z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="0"
+                android:endY="180"
+                android:startX="0"
+                android:startY="0"
+                android:type="linear">
+                <item android:color="#FF151B3A" android:offset="0" />
+                <item android:color="#FF3B2A5C" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Stars and moon -->
+    <path
+        android:fillColor="#CCFFFFFF"
+        android:pathData="M30,22h2v2h-2z M70,40h2v2h-2z M118,18h2v2h-2z M150,46h2v2h-2z M196,26h2v2h-2z M236,14h2v2h-2z M60,70h2v2h-2z" />
+    <path
+        android:fillColor="#FFFFD98A"
+        android:pathData="M282,38m-18,0a18,18 0,1 1,36 0a18,18 0,1 1,-36 0" />
+    <path
+        android:fillColor="#FF1C2246"
+        android:pathData="M290,32m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" />
+    <!-- Hills -->
+    <path
+        android:fillColor="#FF241C3F"
+        android:pathData="M0,150C60,110 120,120 170,140C220,118 280,112 320,128L320,180L0,180Z" />
+    <!-- Three posters, the middle one focused -->
+    <path
+        android:fillColor="#FFE07A5F"
+        android:pathData="M60,92h44a6,6 0,0 1,6 6v58a6,6 0,0 1,-6 6h-44a6,6 0,0 1,-6 -6v-58a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#FF81B29A"
+        android:pathData="M216,92h44a6,6 0,0 1,6 6v58a6,6 0,0 1,-6 6h-44a6,6 0,0 1,-6 -6v-58a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M134,76h52a8,8 0,0 1,8 8v74a8,8 0,0 1,-8 8h-52a8,8 0,0 1,-8 -8v-74a8,8 0,0 1,8 -8z" />
+    <path
+        android:fillColor="#FFF2CC8F"
+        android:pathData="M137,79h46a6,6 0,0 1,6 6v70a6,6 0,0 1,-6 6h-46a6,6 0,0 1,-6 -6v-70a6,6 0,0 1,6 -6z" />
+    <path
+        android:fillColor="#FF3D405B"
+        android:pathData="M131,140L150,118L162,130L174,114L189,140L189,155a6,6 0,0 1,-6 6h-46a6,6 0,0 1,-6 -6Z" />
+    <!-- Score pill -->
+    <path
+        android:fillColor="#B3000000"
+        android:pathData="M164,84h18a4,4 0,0 1,4 4v4a4,4 0,0 1,-4 4h-18a4,4 0,0 1,-4 -4v-4a4,4 0,0 1,4 -4z" />
+    <path
+        android:fillColor="#FFFFC94D"
+        android:pathData="M169,86l1.2,2.5 2.8,0.4 -2,1.9 0.5,2.7 -2.5,-1.3 -2.5,1.3 0.5,-2.7 -2,-1.9 2.8,-0.4z" />
+</vector>

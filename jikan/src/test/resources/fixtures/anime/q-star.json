@@ -1,0 +1,278 @@
+{
+  "pagination": {
+    "last_visible_page": 1,
+    "has_next_page": false,
+    "current_page": 1,
+    "items": {
+      "count": 2,
+      "total": 2,
+      "per_page": 25
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60101,
+      "url": "https://myanimelist.net/anime/60101/Hoshi_no_Chizushi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1281/200101.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1281/200101.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hoshi no Chizushi"
+        },
+        {
+          "type": "Japanese",
+          "title": "星の地図師"
+        },
+        {
+          "type": "English",
+          "title": "Starlit Cartographers"
+        }
+      ],
+      "title": "Hoshi no Chizushi",
+      "title_english": "Starlit Cartographers",
+      "title_japanese": "星の地図師",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-02T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 2, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.91,
+      "scored_by": 41250,
+      "rank": 18,
+      "popularity": 402,
+      "members": 212400,
+      "favorites": 6120,
+      "synopsis": "Ilse Varga draws the star charts that every ship in the kingdom of Merrow steers by. When three constellations vanish in a single night, she leaves the observatory with a stowaway apprentice and an airship that barely flies, to find out where the stars went before the trade fleets lose their way.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60307,
+      "url": "https://myanimelist.net/anime/60307/Hoshimi-yuki_Saishuu_Ressha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1487/200307.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1487/200307.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hoshimi-yuki Saishuu Ressha"
+        },
+        {
+          "type": "English",
+          "title": "The Last Train to Hoshimi"
+        }
+      ],
+      "title": "Hoshimi-yuki Saishuu Ressha",
+      "title_english": "The Last Train to Hoshimi",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 4266,
+      "members": 12600,
+      "favorites": 48,
+      "synopsis": "The Last Train to Hoshimi is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2103,
+          "type": "anime",
+          "name": "Hoshizora Works",
+          "url": "https://myanimelist.net/anime/producer/2103/Hoshizora_Works"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    }
+  ]
+}

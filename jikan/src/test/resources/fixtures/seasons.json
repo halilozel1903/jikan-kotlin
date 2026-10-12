@@ -1,0 +1,91 @@
+{
+  "data": [
+    {
+      "year": 2027,
+      "seasons": [
+        "winter"
+      ]
+    },
+    {
+      "year": 2026,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2025,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2024,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2023,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2022,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2021,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2020,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2019,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    },
+    {
+      "year": 2018,
+      "seasons": [
+        "winter",
+        "spring",
+        "summer",
+        "fall"
+      ]
+    }
+  ]
+}

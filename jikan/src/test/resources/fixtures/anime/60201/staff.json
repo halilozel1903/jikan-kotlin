@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "person": {
+        "mal_id": 90101,
+        "url": "https://myanimelist.net/people/90101/Arakawa_Seiji",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/voiceactors/4/90101.jpg"
+          }
+        },
+        "name": "Arakawa, Seiji"
+      },
+      "positions": [
+        "Director",
+        "Storyboard"
+      ]
+    },
+    {
+      "person": {
+        "mal_id": 90102,
+        "url": "https://myanimelist.net/people/90102/Umino_Sayo",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/voiceactors/5/90102.jpg"
+          }
+        },
+        "name": "Umino, Sayo"
+      },
+      "positions": [
+        "Original Creator"
+      ]
+    },
+    {
+      "person": {
+        "mal_id": 90103,
+        "url": "https://myanimelist.net/people/90103/Nakane_Yuri",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/voiceactors/6/90103.jpg"
+          }
+        },
+        "name": "Nakane, Yuri"
+      },
+      "positions": [
+        "Series Composition",
+        "Script"
+      ]
+    },
+    {
+      "person": {
+        "mal_id": 90104,
+        "url": "https://myanimelist.net/people/90104/Tidelines",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/voiceactors/0/90104.jpg"
+          }
+        },
+        "name": "Tidelines"
+      },
+      "positions": [
+        "Theme Song Performance"
+      ]
+    }
+  ]
+}

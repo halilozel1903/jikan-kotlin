@@ -1,0 +1,176 @@
+{
+  "pagination": {
+    "last_visible_page": 1,
+    "has_next_page": false
+  },
+  "data": [
+    {
+      "mal_id": 1,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/1",
+      "title": "The Bell That Rang Twice",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-07-03T00:00:00+00:00",
+      "score": 4.5,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300001"
+    },
+    {
+      "mal_id": 2,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/2",
+      "title": "Tuning Fork",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-07-10T00:00:00+00:00",
+      "score": 4.6,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300002"
+    },
+    {
+      "mal_id": 3,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/3",
+      "title": "Salt on the Ropes",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-07-17T00:00:00+00:00",
+      "score": 4.7,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300003"
+    },
+    {
+      "mal_id": 4,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/4",
+      "title": "Ledger of Families",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-07-24T00:00:00+00:00",
+      "score": 4.8,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300004"
+    },
+    {
+      "mal_id": 5,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/5",
+      "title": "The North Tower",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-07-31T00:00:00+00:00",
+      "score": 4.4,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300005"
+    },
+    {
+      "mal_id": 6,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/6",
+      "title": "Fog Signal",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-08-07T00:00:00+00:00",
+      "score": 4.5,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300006"
+    },
+    {
+      "mal_id": 7,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/7",
+      "title": "A Ship Called Hinode",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-08-14T00:00:00+00:00",
+      "score": 4.6,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300007"
+    },
+    {
+      "mal_id": 8,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/8",
+      "title": "Recap: Bells So Far",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-08-21T00:00:00+00:00",
+      "score": 4.7,
+      "filler": false,
+      "recap": true,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300008"
+    },
+    {
+      "mal_id": 9,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/9",
+      "title": "Harbor Masters",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-08-28T00:00:00+00:00",
+      "score": 4.8,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300009"
+    },
+    {
+      "mal_id": 10,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/10",
+      "title": "The Bell Without a Name",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-09-04T00:00:00+00:00",
+      "score": 4.4,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300010"
+    },
+    {
+      "mal_id": 11,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/11",
+      "title": "Night Watch",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-09-11T00:00:00+00:00",
+      "score": 4.5,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300011"
+    },
+    {
+      "mal_id": 12,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/12",
+      "title": "Under the Pier",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-09-18T00:00:00+00:00",
+      "score": 4.6,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300012"
+    },
+    {
+      "mal_id": 13,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/13",
+      "title": "Second Tide",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-09-25T00:00:00+00:00",
+      "score": 4.7,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300013"
+    },
+    {
+      "mal_id": 14,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato/episode/14",
+      "title": "The Bell for My Father",
+      "title_japanese": null,
+      "title_romanji": null,
+      "aired": "2026-10-02T00:00:00+00:00",
+      "score": 4.8,
+      "filler": false,
+      "recap": false,
+      "forum_url": "https://myanimelist.net/forum/?topicid=2300014"
+    }
+  ]
+}

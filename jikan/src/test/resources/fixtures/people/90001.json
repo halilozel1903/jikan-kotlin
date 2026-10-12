@@ -1,0 +1,21 @@
+{
+  "data": {
+    "mal_id": 90001,
+    "url": "https://myanimelist.net/people/90001/Sakurada_Mio",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/90001.jpg"
+      }
+    },
+    "name": "Sakurada, Mio",
+    "website_url": null,
+    "given_name": "美緒",
+    "family_name": "桜田",
+    "alternate_names": [
+      "Sakurada Mio"
+    ],
+    "birthday": "1998-04-12T00:00:00+00:00",
+    "favorites": 2140,
+    "about": "Voice actress and singer."
+  }
+}

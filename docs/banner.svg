@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-label="jikan-kotlin: Kotlin client for the Jikan API (MyAnimeList) with an Android TV anime browser" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo4MDAyNmJlZC1lYWFmLTQ1ZjUtYTQyZi1jMGY5ODhlMzliNGYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOq/BrHUm9sC2+DeEQntcHoAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpmYWM4Njg2OS00ZDZmLTQyYjItYWViNi01YjFlYmIwNTc1YmFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNopZraNjKYUrbmdy/0yG12FQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggVUs1ULxQz7qbxTp28tn7rfftk+oOEJ6p7t7wW/elZoGkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHzjUhM0lA+Ul3G6bOkUpJwAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIL4tixXMs/2WP54cXMJRTqoeQu6t2zwZeDQL29W4rnBRZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQENZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjgwMDI2YmVkLWVhYWYtNDVmNS1hNDJmLWMwZjk4OGUzOWI0Zi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjVmNzgzNGFjLWNkY2YtNDA3Ny1hZDk4LTdlNTVkZTQ1NmE2YXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBVSzVQvFDPupvFOnby2fut9+2T6g4Qnqnu3vBb96VmgaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggcfRlx/6juiiyfpvdLGvyTm5Yr15LghzpC3m+zD+dP1aiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggv56/6AnsvNAISzI1uprUuYlzS3JQrmBgGLcYOKGCUdh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQFOFiM/0BvH42kIQa8xtP5UIUasP/IZH//j+bsDZl7DpAJs2qH7im+/vzcFfYwJO2EEpJG/GOOXMX0LfgeKmTqQ=</c2pa:manifest></metadata>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c0e16"/>
+      <stop offset="1" stop-color="#22173a"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b3d"/>
+      <stop offset="1" stop-color="#4b3a78"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0c0e16" stop-opacity="1"/>
+      <stop offset="0.45" stop-color="#0c0e16" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0c0e16" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="p1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b5876"/><stop offset="1" stop-color="#4e4376"/></linearGradient>
+    <linearGradient id="p2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f2027"/><stop offset="1" stop-color="#2c5364"/></linearGradient>
+    <linearGradient id="p3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#42275a"/><stop offset="1" stop-color="#734b6d"/></linearGradient>
+    <linearGradient id="p4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d4350"/><stop offset="1" stop-color="#a43931"/></linearGradient>
+    <linearGradient id="p5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#134e5e"/><stop offset="1" stop-color="#71b280"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#ff8a7a" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <g font-family="'Google Sans', Roboto, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="80" y="170" fill="#ffffff" font-size="64" font-weight="800" letter-spacing="-2">jikan-kotlin</text>
+    <text x="82" y="224" fill="#ffd2c9" font-size="23" font-weight="500">Kotlin client for the Jikan API (MyAnimeList)</text>
+    <text x="82" y="260" fill="#ffd2c9" font-size="23" font-weight="500">with an Android TV anime browser</text>
+    <text x="82" y="318" fill="#ff8a7a" font-size="19" font-family="'JetBrains Mono', Menlo, monospace">jikan.topAnime(filter = TopAnimeFilter.Airing)</text>
+    <g font-size="16" font-weight="600" fill="#ffe7e2">
+      <rect x="82" y="350" width="110" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="137" y="373" text-anchor="middle">Jikan v4</text>
+      <rect x="202" y="350" width="104" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="254" y="373" text-anchor="middle">Seasons</text>
+      <rect x="316" y="350" width="96" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="364" y="373" text-anchor="middle">Search</text>
+      <rect x="422" y="350" width="124" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="484" y="373" text-anchor="middle">Paging Flow</text>
+      <rect x="82" y="394" width="160" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="162" y="417" text-anchor="middle">3/s · 60/min limiter</text>
+      <rect x="252" y="394" width="116" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="310" y="417" text-anchor="middle">429 retries</text>
+      <rect x="378" y="394" width="168" height="34" rx="17" fill="#ffffff" fill-opacity="0.1"/>
+      <text x="462" y="417" text-anchor="middle">Compose for TV</text>
+    </g>
+    <g transform="translate(640 70)" filter="url(#shadow)">
+      <rect width="580" height="360" rx="18" fill="#0c0e16" stroke="#2a3040" stroke-width="6"/>
+      <!-- Hero: night sky with a crescent moon -->
+      <rect x="250" y="16" width="314" height="170" rx="10" fill="url(#sky)"/>
+      <circle cx="470" cy="70" r="30" fill="#ffd98a"/>
+      <circle cx="482" cy="63" r="26" fill="#1a2148"/>
+      <g fill="#ffffff" fill-opacity="0.8">
+        <circle cx="300" cy="40" r="1.6"/><circle cx="350" cy="70" r="1.4"/><circle cx="400" cy="34" r="1.8"/>
+        <circle cx="530" cy="120" r="1.4"/><circle cx="420" cy="100" r="1.2"/><circle cx="540" cy="36" r="1.5"/>
+      </g>
+      <path d="M250 150 C 330 120, 400 160, 470 138 S 540 130, 564 134 L564 176 Q564 186 554 186 L260 186 Q250 186 250 176 Z" fill="#0b0f24" fill-opacity="0.8"/>
+      <rect x="16" y="16" width="548" height="170" rx="10" fill="url(#scrim)"/>
+      <text x="36" y="44" fill="#ffffff" font-size="13" font-weight="800">Jikan TV</text>
+      <text x="36" y="72" fill="#ff8a7a" font-size="10" font-weight="700">#1 THIS SEASON · FALL 2026</text>
+      <text x="36" y="98" fill="#ffffff" font-size="21" font-weight="800">Starlit Cartographers</text>
+      <path d="M41 108 l2.4 4.9 5.4 0.8 -3.9 3.8 0.9 5.4 -4.8 -2.5 -4.8 2.5 0.9 -5.4 -3.9 -3.8 5.4 -0.8z" fill="#ffc94d"/>
+      <text x="54" y="120" fill="#ffffff" font-size="12" font-weight="700">8.91</text>
+      <text x="86" y="120" fill="#a9afc2" font-size="11">TV · 12 eps · Fall 2026</text>
+      <rect x="36" y="136" width="82" height="26" rx="13" fill="#ffffff"/>
+      <text x="77" y="153" fill="#0c0e16" font-size="11" font-weight="700" text-anchor="middle">More info</text>
+      <rect x="126" y="136" width="104" height="26" rx="13" fill="#ffffff" fill-opacity="0.12"/>
+      <text x="178" y="153" fill="#ffffff" font-size="11" font-weight="600" text-anchor="middle">Browse seasons</text>
+      <!-- Rail -->
+      <text x="36" y="214" fill="#ffffff" font-size="13" font-weight="700">Top airing</text>
+      <text x="544" y="214" fill="#a9afc2" font-size="10" text-anchor="end">Ranked by score</text>
+      <g>
+        <rect x="36" y="226" width="80" height="116" rx="8" fill="url(#p1)"/>
+        <circle cx="76" cy="290" r="20" fill="#ffb199"/>
+        <rect x="36" y="300" width="80" height="42" fill="#172238" fill-opacity="0.9"/>
+        <rect x="132" y="226" width="80" height="116" rx="8" fill="url(#p2)"/>
+        <rect x="140" y="280" width="14" height="62" fill="#08161b"/><rect x="158" y="262" width="14" height="80" fill="#08161b"/>
+        <rect x="176" y="290" width="14" height="52" fill="#08161b"/><rect x="194" y="270" width="14" height="72" fill="#08161b"/>
+        <rect x="162" y="272" width="4" height="4" fill="#7fe7d3"/><rect x="198" y="284" width="4" height="4" fill="#7fe7d3"/>
+        <g filter="url(#glow)">
+          <rect x="224" y="220" width="88" height="128" rx="9" fill="#ffffff"/>
+          <rect x="227" y="223" width="82" height="122" rx="7" fill="url(#p3)"/>
+          <path d="M227 300 L250 274 L266 290 L284 266 L309 300 L309 337 Q309 345 301 345 L235 345 Q227 345 227 337 Z" fill="#22132f"/>
+          <circle cx="248" cy="246" r="6" fill="#ffc371"/><circle cx="268" cy="250" r="6" fill="#ffc371"/><circle cx="288" cy="246" r="6" fill="#ffc371"/>
+          <rect x="270" y="228" width="34" height="14" rx="4" fill="#000000" fill-opacity="0.65"/>
+          <text x="287" y="239" fill="#ffffff" font-size="9" font-weight="700" text-anchor="middle">8.88</text>
+        </g>
+        <rect x="328" y="226" width="80" height="116" rx="8" fill="url(#p4)"/>
+        <circle cx="368" cy="276" r="22" fill="#ffe29f"/>
+        <ellipse cx="368" cy="276" rx="38" ry="8" fill="none" stroke="#ffe29f" stroke-width="3" transform="rotate(-18 368 276)"/>
+        <rect x="424" y="226" width="80" height="116" rx="8" fill="url(#p5)"/>
+        <circle cx="464" cy="268" r="18" fill="#fff3b0"/>
+        <rect x="424" y="300" width="80" height="42" fill="#0a2a33" fill-opacity="0.85"/>
+        <rect x="520" y="226" width="44" height="116" rx="8" fill="#1d2130"/>
+      </g>
+    </g>
+    <text x="1200" y="510" fill="#a9afc2" fill-opacity="0.7" font-size="13" text-anchor="end">Data from Jikan, the unofficial MyAnimeList API · cover art drawn for this project</text>
+  </g>
+</svg>

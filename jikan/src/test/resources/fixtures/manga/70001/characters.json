@@ -1,0 +1,55 @@
+{
+  "data": [
+    {
+      "character": {
+        "mal_id": 80001,
+        "url": "https://myanimelist.net/character/80001/Kanemori_Aoi",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.jpg"
+          },
+          "webp": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/characters/0/80001t.webp"
+          }
+        },
+        "name": "Kanemori, Aoi"
+      },
+      "role": "Main"
+    },
+    {
+      "character": {
+        "mal_id": 80002,
+        "url": "https://myanimelist.net/character/80002/Wren_Tobias",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/1/80002.jpg"
+          },
+          "webp": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/1/80002.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/characters/1/80002t.webp"
+          }
+        },
+        "name": "Wren, Tobias"
+      },
+      "role": "Main"
+    },
+    {
+      "character": {
+        "mal_id": 80003,
+        "url": "https://myanimelist.net/character/80003/Marsh_Odile",
+        "images": {
+          "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/2/80003.jpg"
+          },
+          "webp": {
+            "image_url": "https://cdn.myanimelist.net/images/characters/2/80003.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/characters/2/80003t.webp"
+          }
+        },
+        "name": "Marsh, Odile"
+      },
+      "role": "Supporting"
+    }
+  ]
+}

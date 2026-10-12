@@ -1,0 +1,22 @@
+{
+  "data": {
+    "mal_id": 80001,
+    "url": "https://myanimelist.net/character/80001/Kanemori_Aoi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/characters/0/80001t.webp"
+      }
+    },
+    "name": "Kanemori, Aoi",
+    "name_kanji": "金森 葵",
+    "nicknames": [
+      "Bell Girl"
+    ],
+    "favorites": 3210,
+    "about": "Apprentice bell tuner of Kanehama harbor. Seventeen years old."
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "data": {
+    "mal_id": 60201,
+    "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Sen no Kane no Minato"
+      },
+      {
+        "type": "Synonym",
+        "title": "Thousand Bells"
+      },
+      {
+        "type": "Japanese",
+        "title": "千の鐘の港"
+      },
+      {
+        "type": "English",
+        "title": "Harbor of a Thousand Bells"
+      }
+    ],
+    "title": "Sen no Kane no Minato",
+    "title_english": "Harbor of a Thousand Bells",
+    "title_japanese": "千の鐘の港",
+    "title_synonyms": [
+      "Thousand Bells"
+    ],
+    "type": "TV",
+    "source": "Manga",
+    "episodes": 24,
+    "status": "Currently Airing",
+    "airing": true,
+    "aired": {
+      "from": "2026-07-03T00:00:00+00:00",
+      "to": null,
+      "prop": {
+        "from": {
+          "day": 3,
+          "month": 7,
+          "year": 2026
+        },
+        "to": {
+          "day": null,
+          "month": null,
+          "year": null
+        }
+      },
+      "string": "Jul 3, 2026 to ?"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 8.88,
+    "scored_by": 96400,
+    "rank": 21,
+    "popularity": 188,
+    "members": 402100,
+    "favorites": 14300,
+    "synopsis": "Every ship that enters Kanehama harbor is greeted by one of its thousand bells, each tuned to a single family. When the bells begin to ring for ships that never arrive, apprentice tuner Aoi Kanemori climbs the old towers to learn who is calling them home, and why one bell has rung for her own father every night since he was lost at sea.",
+    "background": null,
+    "season": "summer",
+    "year": 2026,
+    "broadcast": {
+      "day": "Fridays",
+      "time": "23:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Fridays at 23:30 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 3101,
+        "type": "anime",
+        "name": "Aurora Media",
+        "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+      },
+      {
+        "mal_id": 3103,
+        "type": "anime",
+        "name": "Kawase Broadcasting",
+        "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 2105,
+        "type": "anime",
+        "name": "Tidewater Studio",
+        "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 8,
+        "type": "anime",
+        "name": "Drama",
+        "url": "https://myanimelist.net/anime/genre/8/Drama"
+      },
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 7,
+        "type": "anime",
+        "name": "Mystery",
+        "url": "https://myanimelist.net/anime/genre/7/Mystery"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 50,
+        "type": "anime",
+        "name": "Adult Cast",
+        "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+      }
+    ],
+    "demographics": [
+      {
+        "mal_id": 42,
+        "type": "anime",
+        "name": "Seinen",
+        "url": "https://myanimelist.net/anime/genre/42/Seinen"
+      }
+    ]
+  }
+}

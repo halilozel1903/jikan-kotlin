@@ -1,0 +1,1398 @@
+{
+  "pagination": {
+    "last_visible_page": 40,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 10,
+      "total": 790,
+      "per_page": 20
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60101,
+      "url": "https://myanimelist.net/anime/60101/Hoshi_no_Chizushi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1281/200101.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1281/200101.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1281/200101l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hoshi no Chizushi"
+        },
+        {
+          "type": "Japanese",
+          "title": "星の地図師"
+        },
+        {
+          "type": "English",
+          "title": "Starlit Cartographers"
+        }
+      ],
+      "title": "Hoshi no Chizushi",
+      "title_english": "Starlit Cartographers",
+      "title_japanese": "星の地図師",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-02T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 2, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.91,
+      "scored_by": 41250,
+      "rank": 18,
+      "popularity": 402,
+      "members": 212400,
+      "favorites": 6120,
+      "synopsis": "Ilse Varga draws the star charts that every ship in the kingdom of Merrow steers by. When three constellations vanish in a single night, she leaves the observatory with a stowaway apprentice and an airship that barely flies, to find out where the stars went before the trade fleets lose their way.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60201,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Sen no Kane no Minato"
+        },
+        {
+          "type": "Synonym",
+          "title": "Thousand Bells"
+        },
+        {
+          "type": "Japanese",
+          "title": "千の鐘の港"
+        },
+        {
+          "type": "English",
+          "title": "Harbor of a Thousand Bells"
+        }
+      ],
+      "title": "Sen no Kane no Minato",
+      "title_english": "Harbor of a Thousand Bells",
+      "title_japanese": "千の鐘の港",
+      "title_synonyms": [
+        "Thousand Bells"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-03T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 3, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.88,
+      "scored_by": 96400,
+      "rank": 21,
+      "popularity": 188,
+      "members": 402100,
+      "favorites": 14300,
+      "synopsis": "Every ship that enters Kanehama harbor is greeted by one of its thousand bells, each tuned to a single family. When the bells begin to ring for ships that never arrive, apprentice tuner Aoi Kanemori climbs the old towers to learn who is calling them home, and why one bell has rung for her own father every night since he was lost at sea.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60401,
+      "url": "https://myanimelist.net/anime/60401/Houseki_no_Mori",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1581/200401.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1581/200401t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1581/200401l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1581/200401.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1581/200401t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1581/200401l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Houseki no Mori"
+        },
+        {
+          "type": "Japanese",
+          "title": "宝石の森"
+        },
+        {
+          "type": "English",
+          "title": "Forest of Gemstones"
+        }
+      ],
+      "title": "Houseki no Mori",
+      "title_english": "Forest of Gemstones",
+      "title_japanese": "宝石の森",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-01-07T00:00:00+00:00",
+        "to": "2024-03-31T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 7,
+            "month": 1,
+            "year": 2024
+          },
+          "to": {
+            "day": 31,
+            "month": 3,
+            "year": 2024
+          }
+        },
+        "string": "Jan 7, 2024 to Mar 31, 2024"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.79,
+      "scored_by": 210000,
+      "rank": 33,
+      "popularity": 150,
+      "members": 640000,
+      "favorites": 22000,
+      "synopsis": "Gem-bodied guardians protect a forest where every tree grows a single crystal.",
+      "background": null,
+      "season": "winter",
+      "year": 2024,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "23:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 23:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 46,
+          "type": "anime",
+          "name": "Award Winning",
+          "url": "https://myanimelist.net/anime/genre/46/Award_Winning"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60202,
+      "url": "https://myanimelist.net/anime/60202/Haiiro_no_Kanmuri_3rd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1382/200202.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1382/200202.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Haiiro no Kanmuri 3rd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "灰色の冠 第3期"
+        },
+        {
+          "type": "English",
+          "title": "Ashen Crown Season 3"
+        }
+      ],
+      "title": "Haiiro no Kanmuri 3rd Season",
+      "title_english": "Ashen Crown Season 3",
+      "title_japanese": "灰色の冠 第3期",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": 13,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 6, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.64,
+      "scored_by": 70200,
+      "rank": 60,
+      "popularity": 210,
+      "members": 388000,
+      "favorites": 9100,
+      "synopsis": "The exiled prince reaches the ash fields at last, where the crown that burned his kingdom is waiting.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Mondays",
+        "time": "00:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Mondays at 00:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60402,
+      "url": "https://myanimelist.net/anime/60402/Kumo_no_Ue_no_Toshokan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kumo no Ue no Toshokan"
+        },
+        {
+          "type": "Japanese",
+          "title": "雲の上の図書館"
+        },
+        {
+          "type": "English",
+          "title": "Library Above the Clouds"
+        }
+      ],
+      "title": "Kumo no Ue no Toshokan",
+      "title_english": "Library Above the Clouds",
+      "title_japanese": "雲の上の図書館",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2023-10-05T00:00:00+00:00",
+        "to": "2023-12-21T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 10,
+            "year": 2023
+          },
+          "to": {
+            "day": 21,
+            "month": 12,
+            "year": 2023
+          }
+        },
+        "string": "Oct 5, 2023 to Dec 21, 2023"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.55,
+      "scored_by": 150000,
+      "rank": 88,
+      "popularity": 260,
+      "members": 470000,
+      "favorites": 12000,
+      "synopsis": "A librarian lends out books from an island that floats wherever the wind takes it.",
+      "background": null,
+      "season": "fall",
+      "year": 2023,
+      "broadcast": {
+        "day": "Thursdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Thursdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60403,
+      "url": "https://myanimelist.net/anime/60403/Hinoko_no_Majo_Minarai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1583/200403.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1583/200403t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1583/200403l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1583/200403.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1583/200403t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1583/200403l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hinoko no Majo Minarai"
+        },
+        {
+          "type": "Japanese",
+          "title": "火の粉の魔女見習い"
+        },
+        {
+          "type": "English",
+          "title": "Ember Witch Apprentice"
+        }
+      ],
+      "title": "Hinoko no Majo Minarai",
+      "title_english": "Ember Witch Apprentice",
+      "title_japanese": "火の粉の魔女見習い",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2025-04-06T00:00:00+00:00",
+        "to": "2025-06-22T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": 22,
+            "month": 6,
+            "year": 2025
+          }
+        },
+        "string": "Apr 6, 2025 to Jun 22, 2025"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.02,
+      "scored_by": 64000,
+      "rank": 560,
+      "popularity": 700,
+      "members": 240000,
+      "favorites": 3300,
+      "synopsis": "A witch apprentice who can only cast fire spells takes a job at a candle shop.",
+      "background": null,
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "17:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 17:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 25,
+          "type": "anime",
+          "name": "Shoujo",
+          "url": "https://myanimelist.net/anime/genre/25/Shoujo"
+        }
+      ]
+    },
+    {
+      "mal_id": 60106,
+      "url": "https://myanimelist.net/anime/60106/Nire_no_Kubochi_no_Kajiya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1286/200106.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1286/200106t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1286/200106l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1286/200106.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1286/200106t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1286/200106l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Nire no Kubochi no Kajiya"
+        },
+        {
+          "type": "Japanese",
+          "title": "楡の窪地の鍛冶屋"
+        },
+        {
+          "type": "English",
+          "title": "The Quiet Blacksmith of Elm Hollow"
+        }
+      ],
+      "title": "Nire no Kubochi no Kajiya",
+      "title_english": "The Quiet Blacksmith of Elm Hollow",
+      "title_japanese": "楡の窪地の鍛冶屋",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 6, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.88,
+      "scored_by": 12100,
+      "rank": 830,
+      "popularity": 1410,
+      "members": 61200,
+      "favorites": 720,
+      "synopsis": "A blacksmith who never speaks forges tools for the villagers of Elm Hollow, and one sword a year for a knight who never comes back for it.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Tuesdays",
+        "time": "23:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Tuesdays at 23:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60204,
+      "url": "https://myanimelist.net/anime/60204/Machi_no_Ue_no_Kujira",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1384/200204.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1384/200204.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Machi no Ue no Kujira"
+        },
+        {
+          "type": "Japanese",
+          "title": "町の上の鯨"
+        },
+        {
+          "type": "English",
+          "title": "Whale Over the Town"
+        }
+      ],
+      "title": "Machi no Ue no Kujira",
+      "title_english": "Whale Over the Town",
+      "title_japanese": "町の上の鯨",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-08T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 8,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 8, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.8,
+      "scored_by": 14800,
+      "rank": 980,
+      "popularity": 1290,
+      "members": 70100,
+      "favorites": 880,
+      "synopsis": "A whale drifts over a seaside town every summer evening, and only the children can hear it sing.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60108,
+      "url": "https://myanimelist.net/anime/60108/Koke_to_Kagami",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1288/200108.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1288/200108t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1288/200108l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1288/200108.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1288/200108t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1288/200108l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Koke to Kagami"
+        },
+        {
+          "type": "Japanese",
+          "title": "苔と鏡"
+        },
+        {
+          "type": "English",
+          "title": "Moss & Mirrors"
+        }
+      ],
+      "title": "Koke to Kagami",
+      "title_english": "Moss & Mirrors",
+      "title_japanese": "苔と鏡",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-07T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 7,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 7, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.64,
+      "scored_by": 7700,
+      "rank": 1395,
+      "popularity": 2104,
+      "members": 35600,
+      "favorites": 290,
+      "synopsis": "A gardener who tends the moss in an abandoned palace finds that every mirror in it shows a different year.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "23:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 23:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 43,
+          "type": "anime",
+          "name": "Josei",
+          "url": "https://myanimelist.net/anime/genre/43/Josei"
+        }
+      ]
+    },
+    {
+      "mal_id": 60111,
+      "url": "https://myanimelist.net/anime/60111/Ryuu_no_Bentou-ya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1291/200111.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1291/200111t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1291/200111l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1291/200111.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1291/200111t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1291/200111l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ryuu no Bentou-ya"
+        },
+        {
+          "type": "Japanese",
+          "title": "竜の弁当屋"
+        },
+        {
+          "type": "English",
+          "title": "Dragon Bento Delivery"
+        }
+      ],
+      "title": "Ryuu no Bentou-ya",
+      "title_english": "Dragon Bento Delivery",
+      "title_japanese": "竜の弁当屋",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 6, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.31,
+      "scored_by": 6100,
+      "rank": 2380,
+      "popularity": 2200,
+      "members": 31900,
+      "favorites": 150,
+      "synopsis": "A retired dragon opens a lunch box shop and insists on delivering every order himself.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Tuesdays",
+        "time": "18:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Tuesdays at 18:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 47,
+          "type": "anime",
+          "name": "Gourmet",
+          "url": "https://myanimelist.net/anime/genre/47/Gourmet"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    }
+  ]
+}

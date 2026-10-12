@@ -1,0 +1,998 @@
+{
+  "pagination": {
+    "last_visible_page": 1,
+    "has_next_page": false,
+    "current_page": 1,
+    "items": {
+      "count": 8,
+      "total": 8,
+      "per_page": 20
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60301,
+      "url": "https://myanimelist.net/anime/60301/Glass_Garden_no_Requiem",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1481/200301.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1481/200301t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1481/200301l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1481/200301.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1481/200301t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1481/200301l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Glass Garden no Requiem"
+        },
+        {
+          "type": "English",
+          "title": "Glass Garden Requiem"
+        }
+      ],
+      "title": "Glass Garden no Requiem",
+      "title_english": "Glass Garden Requiem",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 3000,
+      "members": 24000,
+      "favorites": 90,
+      "synopsis": "Glass Garden Requiem is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60302,
+      "url": "https://myanimelist.net/anime/60302/Ganymede_Orbit_Cafe",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1482/200302.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1482/200302t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1482/200302l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1482/200302.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1482/200302t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1482/200302l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ganymede Orbit Cafe"
+        },
+        {
+          "type": "English",
+          "title": "Orbit Cafe Ganymede"
+        }
+      ],
+      "title": "Ganymede Orbit Cafe",
+      "title_english": "Orbit Cafe Ganymede",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 3211,
+      "members": 22100,
+      "favorites": 83,
+      "synopsis": "Orbit Cafe Ganymede is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60303,
+      "url": "https://myanimelist.net/anime/60303/Nemuri_Tani_no_Tsurugi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1483/200303.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1483/200303t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1483/200303l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1483/200303.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1483/200303t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1483/200303l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Nemuri Tani no Tsurugi"
+        },
+        {
+          "type": "English",
+          "title": "Sword of the Sleeping Valley"
+        }
+      ],
+      "title": "Nemuri Tani no Tsurugi",
+      "title_english": "Sword of the Sleeping Valley",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 3422,
+      "members": 20200,
+      "favorites": 76,
+      "synopsis": "Sword of the Sleeping Valley is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60304,
+      "url": "https://myanimelist.net/anime/60304/Poketto_Toudai",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1484/200304.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1484/200304t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1484/200304l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1484/200304.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1484/200304t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1484/200304l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Poketto Toudai"
+        },
+        {
+          "type": "English",
+          "title": "Pocket Lighthouse"
+        }
+      ],
+      "title": "Poketto Toudai",
+      "title_english": "Pocket Lighthouse",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 3633,
+      "members": 18300,
+      "favorites": 69,
+      "synopsis": "Pocket Lighthouse is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60305,
+      "url": "https://myanimelist.net/anime/60305/Kaminari_Pan-ya",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1485/200305.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1485/200305t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1485/200305l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1485/200305.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1485/200305t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1485/200305l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kaminari Pan-ya"
+        },
+        {
+          "type": "English",
+          "title": "Thunder Bakery"
+        }
+      ],
+      "title": "Kaminari Pan-ya",
+      "title_english": "Thunder Bakery",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 3844,
+      "members": 16400,
+      "favorites": 62,
+      "synopsis": "Thunder Bakery is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 47,
+          "type": "anime",
+          "name": "Gourmet",
+          "url": "https://myanimelist.net/anime/genre/47/Gourmet"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60306,
+      "url": "https://myanimelist.net/anime/60306/Neon_no_Shita_no_Kodama",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1486/200306.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1486/200306t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1486/200306l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1486/200306.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1486/200306t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1486/200306l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Neon no Shita no Kodama"
+        },
+        {
+          "type": "English",
+          "title": "Echoes Under Neon"
+        }
+      ],
+      "title": "Neon no Shita no Kodama",
+      "title_english": "Echoes Under Neon",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 4055,
+      "members": 14500,
+      "favorites": 55,
+      "synopsis": "Echoes Under Neon is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 41,
+          "type": "anime",
+          "name": "Suspense",
+          "url": "https://myanimelist.net/anime/genre/41/Suspense"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60307,
+      "url": "https://myanimelist.net/anime/60307/Hoshimi-yuki_Saishuu_Ressha",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1487/200307.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1487/200307.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1487/200307l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hoshimi-yuki Saishuu Ressha"
+        },
+        {
+          "type": "English",
+          "title": "The Last Train to Hoshimi"
+        }
+      ],
+      "title": "Hoshimi-yuki Saishuu Ressha",
+      "title_english": "The Last Train to Hoshimi",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 4266,
+      "members": 12600,
+      "favorites": 48,
+      "synopsis": "The Last Train to Hoshimi is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2103,
+          "type": "anime",
+          "name": "Hoshizora Works",
+          "url": "https://myanimelist.net/anime/producer/2103/Hoshizora_Works"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60308,
+      "url": "https://myanimelist.net/anime/60308/Kitsune_Andon_no_Yado",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1488/200308.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1488/200308t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1488/200308l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1488/200308.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1488/200308t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1488/200308l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kitsune Andon no Yado"
+        },
+        {
+          "type": "English",
+          "title": "Fox Lantern Inn"
+        }
+      ],
+      "title": "Kitsune Andon no Yado",
+      "title_english": "Fox Lantern Inn",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": null,
+      "status": "Not yet aired",
+      "airing": false,
+      "aired": {
+        "from": "2027-01-01T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": null,
+            "month": 1,
+            "year": 2027
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jan 2027 to ?"
+      },
+      "duration": "Unknown",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": null,
+      "scored_by": null,
+      "rank": null,
+      "popularity": 4477,
+      "members": 10700,
+      "favorites": 41,
+      "synopsis": "Fox Lantern Inn is an original anime announced for winter 2027.",
+      "background": null,
+      "season": "winter",
+      "year": 2027,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    }
+  ]
+}

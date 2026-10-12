@@ -1,0 +1,716 @@
+{
+  "pagination": {
+    "last_visible_page": 3,
+    "has_next_page": true,
+    "current_page": 2,
+    "items": {
+      "count": 5,
+      "total": 13,
+      "per_page": 5
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60503,
+      "url": "https://myanimelist.net/anime/60503/Hikari_no_Kioku",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1683/200503.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1683/200503t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1683/200503l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1683/200503.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1683/200503t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1683/200503l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hikari no Kioku"
+        },
+        {
+          "type": "Japanese",
+          "title": "光の記憶"
+        },
+        {
+          "type": "English",
+          "title": "Memory of Light"
+        }
+      ],
+      "title": "Hikari no Kioku",
+      "title_english": "Memory of Light",
+      "title_japanese": "光の記憶",
+      "title_synonyms": [],
+      "type": "Movie",
+      "source": "Original",
+      "episodes": 1,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2025-08-15T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 15,
+            "month": 8,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Aug 15, 2025 to ?"
+      },
+      "duration": "1 hr 52 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.6,
+      "scored_by": 88000,
+      "rank": 70,
+      "popularity": 520,
+      "members": 260000,
+      "favorites": 6000,
+      "synopsis": "A lighthouse that stores memories as beams of light is about to be switched off for good.",
+      "background": null,
+      "season": null,
+      "year": null,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60402,
+      "url": "https://myanimelist.net/anime/60402/Kumo_no_Ue_no_Toshokan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kumo no Ue no Toshokan"
+        },
+        {
+          "type": "Japanese",
+          "title": "雲の上の図書館"
+        },
+        {
+          "type": "English",
+          "title": "Library Above the Clouds"
+        }
+      ],
+      "title": "Kumo no Ue no Toshokan",
+      "title_english": "Library Above the Clouds",
+      "title_japanese": "雲の上の図書館",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2023-10-05T00:00:00+00:00",
+        "to": "2023-12-21T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 10,
+            "year": 2023
+          },
+          "to": {
+            "day": 21,
+            "month": 12,
+            "year": 2023
+          }
+        },
+        "string": "Oct 5, 2023 to Dec 21, 2023"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.55,
+      "scored_by": 150000,
+      "rank": 88,
+      "popularity": 260,
+      "members": 470000,
+      "favorites": 12000,
+      "synopsis": "A librarian lends out books from an island that floats wherever the wind takes it.",
+      "background": null,
+      "season": "fall",
+      "year": 2023,
+      "broadcast": {
+        "day": "Thursdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Thursdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60102,
+      "url": "https://myanimelist.net/anime/60102/Tokei-jikake_no_Kissaten",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1282/200102.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1282/200102t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1282/200102l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1282/200102.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1282/200102t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1282/200102l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Tokei-jikake no Kissaten"
+        },
+        {
+          "type": "Japanese",
+          "title": "時計仕掛けの喫茶店"
+        },
+        {
+          "type": "English",
+          "title": "Clockwork Tea House"
+        }
+      ],
+      "title": "Tokei-jikake no Kissaten",
+      "title_english": "Clockwork Tea House",
+      "title_japanese": "時計仕掛けの喫茶店",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-04T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 4, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.42,
+      "scored_by": 18800,
+      "rank": 164,
+      "popularity": 930,
+      "members": 98100,
+      "favorites": 1510,
+      "synopsis": "A retired clockmaker turns her workshop into a tea house where every cup is served by a small brass automaton. The regulars bring broken things, and stories, to the counter.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "22:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 22:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        },
+        {
+          "mal_id": 48,
+          "type": "anime",
+          "name": "Workplace",
+          "url": "https://myanimelist.net/anime/genre/48/Workplace"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 43,
+          "type": "anime",
+          "name": "Josei",
+          "url": "https://myanimelist.net/anime/genre/43/Josei"
+        }
+      ]
+    },
+    {
+      "mal_id": 60103,
+      "url": "https://myanimelist.net/anime/60103/Kokonoka_no_Shiokaze_Tourou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1283/200103.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1283/200103t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1283/200103l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1283/200103.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1283/200103t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1283/200103l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kokonoka no Shiokaze Tourou"
+        },
+        {
+          "type": "Japanese",
+          "title": "九日の潮風灯籠"
+        },
+        {
+          "type": "English",
+          "title": "Ninth Tide Lanterns"
+        }
+      ],
+      "title": "Kokonoka no Shiokaze Tourou",
+      "title_english": "Ninth Tide Lanterns",
+      "title_japanese": "九日の潮風灯籠",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-10-03T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 10,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Oct 3, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.37,
+      "scored_by": 21400,
+      "rank": 190,
+      "popularity": 811,
+      "members": 120300,
+      "favorites": 1880,
+      "synopsis": "In a fishing town of the Edo period, lanterns float in from the sea on the ninth night of every month. A young physician and a retired constable try to learn who sends them.",
+      "background": null,
+      "season": "fall",
+      "year": 2026,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "00:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 00:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 13,
+          "type": "anime",
+          "name": "Historical",
+          "url": "https://myanimelist.net/anime/genre/13/Historical"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60502,
+      "url": "https://myanimelist.net/anime/60502/Kidou_Hoshuu-han",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1682/200502.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1682/200502t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1682/200502l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1682/200502.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1682/200502t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1682/200502l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kidou Hoshuu-han"
+        },
+        {
+          "type": "Japanese",
+          "title": "軌道補修班"
+        },
+        {
+          "type": "English",
+          "title": "Orbital Repair Crew"
+        }
+      ],
+      "title": "Kidou Hoshuu-han",
+      "title_english": "Orbital Repair Crew",
+      "title_japanese": "軌道補修班",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2024-07-04T00:00:00+00:00",
+        "to": "2024-09-26T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 7,
+            "year": 2024
+          },
+          "to": {
+            "day": 26,
+            "month": 9,
+            "year": 2024
+          }
+        },
+        "string": "Jul 4, 2024 to Sep 26, 2024"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.33,
+      "scored_by": 99000,
+      "rank": 210,
+      "popularity": 480,
+      "members": 300000,
+      "favorites": 4100,
+      "synopsis": "Four mechanics patch satellites for a living and argue about lunch for the rest of the shift.",
+      "background": null,
+      "season": "summer",
+      "year": 2024,
+      "broadcast": {
+        "day": "Thursdays",
+        "time": "00:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Thursdays at 00:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 29,
+          "type": "anime",
+          "name": "Space",
+          "url": "https://myanimelist.net/anime/genre/29/Space"
+        },
+        {
+          "mal_id": 48,
+          "type": "anime",
+          "name": "Workplace",
+          "url": "https://myanimelist.net/anime/genre/48/Workplace"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    }
+  ]
+}

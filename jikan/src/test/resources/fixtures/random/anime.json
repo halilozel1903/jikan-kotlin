@@ -1,0 +1,136 @@
+{
+  "data": {
+    "mal_id": 60402,
+    "url": "https://myanimelist.net/anime/60402/Kumo_no_Ue_no_Toshokan",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.jpg",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.jpg",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/anime/1582/200402.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402t.webp",
+        "large_image_url": "https://cdn.myanimelist.net/images/anime/1582/200402l.webp"
+      }
+    },
+    "trailer": {
+      "youtube_id": null,
+      "url": null,
+      "embed_url": null,
+      "images": {
+        "image_url": null,
+        "small_image_url": null,
+        "medium_image_url": null,
+        "large_image_url": null,
+        "maximum_image_url": null
+      }
+    },
+    "approved": true,
+    "titles": [
+      {
+        "type": "Default",
+        "title": "Kumo no Ue no Toshokan"
+      },
+      {
+        "type": "Japanese",
+        "title": "雲の上の図書館"
+      },
+      {
+        "type": "English",
+        "title": "Library Above the Clouds"
+      }
+    ],
+    "title": "Kumo no Ue no Toshokan",
+    "title_english": "Library Above the Clouds",
+    "title_japanese": "雲の上の図書館",
+    "title_synonyms": [],
+    "type": "TV",
+    "source": "Original",
+    "episodes": 12,
+    "status": "Finished Airing",
+    "airing": false,
+    "aired": {
+      "from": "2023-10-05T00:00:00+00:00",
+      "to": "2023-12-21T00:00:00+00:00",
+      "prop": {
+        "from": {
+          "day": 5,
+          "month": 10,
+          "year": 2023
+        },
+        "to": {
+          "day": 21,
+          "month": 12,
+          "year": 2023
+        }
+      },
+      "string": "Oct 5, 2023 to Dec 21, 2023"
+    },
+    "duration": "24 min per ep",
+    "rating": "PG-13 - Teens 13 or older",
+    "score": 8.55,
+    "scored_by": 150000,
+    "rank": 88,
+    "popularity": 260,
+    "members": 470000,
+    "favorites": 12000,
+    "synopsis": "A librarian lends out books from an island that floats wherever the wind takes it.",
+    "background": null,
+    "season": "fall",
+    "year": 2023,
+    "broadcast": {
+      "day": "Thursdays",
+      "time": "22:30",
+      "timezone": "Asia/Tokyo",
+      "string": "Thursdays at 22:30 (JST)"
+    },
+    "producers": [
+      {
+        "mal_id": 3101,
+        "type": "anime",
+        "name": "Aurora Media",
+        "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+      },
+      {
+        "mal_id": 3103,
+        "type": "anime",
+        "name": "Kawase Broadcasting",
+        "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+      }
+    ],
+    "licensors": [],
+    "studios": [
+      {
+        "mal_id": 2104,
+        "type": "anime",
+        "name": "Paper Crane Animation",
+        "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+      }
+    ],
+    "genres": [
+      {
+        "mal_id": 10,
+        "type": "anime",
+        "name": "Fantasy",
+        "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+      },
+      {
+        "mal_id": 36,
+        "type": "anime",
+        "name": "Slice of Life",
+        "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+      }
+    ],
+    "explicit_genres": [],
+    "themes": [
+      {
+        "mal_id": 63,
+        "type": "anime",
+        "name": "Iyashikei",
+        "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+      }
+    ],
+    "demographics": []
+  }
+}

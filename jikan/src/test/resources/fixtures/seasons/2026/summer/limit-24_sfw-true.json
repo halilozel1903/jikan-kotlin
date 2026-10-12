@@ -1,0 +1,1548 @@
+{
+  "pagination": {
+    "last_visible_page": 1,
+    "has_next_page": false,
+    "current_page": 1,
+    "items": {
+      "count": 12,
+      "total": 12,
+      "per_page": 24
+    }
+  },
+  "data": [
+    {
+      "mal_id": 60201,
+      "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Sen no Kane no Minato"
+        },
+        {
+          "type": "Synonym",
+          "title": "Thousand Bells"
+        },
+        {
+          "type": "Japanese",
+          "title": "千の鐘の港"
+        },
+        {
+          "type": "English",
+          "title": "Harbor of a Thousand Bells"
+        }
+      ],
+      "title": "Sen no Kane no Minato",
+      "title_english": "Harbor of a Thousand Bells",
+      "title_japanese": "千の鐘の港",
+      "title_synonyms": [
+        "Thousand Bells"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-03T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 3, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.88,
+      "scored_by": 96400,
+      "rank": 21,
+      "popularity": 188,
+      "members": 402100,
+      "favorites": 14300,
+      "synopsis": "Every ship that enters Kanehama harbor is greeted by one of its thousand bells, each tuned to a single family. When the bells begin to ring for ships that never arrive, apprentice tuner Aoi Kanemori climbs the old towers to learn who is calling them home, and why one bell has rung for her own father every night since he was lost at sea.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60202,
+      "url": "https://myanimelist.net/anime/60202/Haiiro_no_Kanmuri_3rd_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1382/200202.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1382/200202.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1382/200202l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Haiiro no Kanmuri 3rd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "灰色の冠 第3期"
+        },
+        {
+          "type": "English",
+          "title": "Ashen Crown Season 3"
+        }
+      ],
+      "title": "Haiiro no Kanmuri 3rd Season",
+      "title_english": "Ashen Crown Season 3",
+      "title_japanese": "灰色の冠 第3期",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": 13,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 6, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.64,
+      "scored_by": 70200,
+      "rank": 60,
+      "popularity": 210,
+      "members": 388000,
+      "favorites": 9100,
+      "synopsis": "The exiled prince reaches the ash fields at last, where the crown that burned his kingdom is waiting.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Mondays",
+        "time": "00:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Mondays at 00:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60204,
+      "url": "https://myanimelist.net/anime/60204/Machi_no_Ue_no_Kujira",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1384/200204.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1384/200204.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1384/200204l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Machi no Ue no Kujira"
+        },
+        {
+          "type": "Japanese",
+          "title": "町の上の鯨"
+        },
+        {
+          "type": "English",
+          "title": "Whale Over the Town"
+        }
+      ],
+      "title": "Machi no Ue no Kujira",
+      "title_english": "Whale Over the Town",
+      "title_japanese": "町の上の鯨",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 24,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2026-07-08T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 8,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 8, 2026 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.8,
+      "scored_by": 14800,
+      "rank": 980,
+      "popularity": 1290,
+      "members": 70100,
+      "favorites": 880,
+      "synopsis": "A whale drifts over a seaside town every summer evening, and only the children can hear it sing.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "22:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 22:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 63,
+          "type": "anime",
+          "name": "Iyashikei",
+          "url": "https://myanimelist.net/anime/genre/63/Iyashikei"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 60601,
+      "url": "https://myanimelist.net/anime/60601/Himawari_Signal",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1781/200601.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1781/200601t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1781/200601l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1781/200601.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1781/200601t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1781/200601l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Himawari Signal"
+        },
+        {
+          "type": "English",
+          "title": "Sunflower Signal"
+        }
+      ],
+      "title": "Himawari Signal",
+      "title_english": "Sunflower Signal",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-01T00:00:00+00:00",
+        "to": "2026-09-16T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 1,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 16,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 1, 2026 to Sep 16, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.92,
+      "scored_by": 9000,
+      "rank": 900,
+      "popularity": 1200,
+      "members": 60000,
+      "favorites": 400,
+      "synopsis": "Sunflower Signal aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        },
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60602,
+      "url": "https://myanimelist.net/anime/60602/Shiodamari_Tanteidan",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1782/200602.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1782/200602t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1782/200602l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1782/200602.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1782/200602t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1782/200602l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Shiodamari Tanteidan"
+        },
+        {
+          "type": "English",
+          "title": "Tidepool Detectives"
+        }
+      ],
+      "title": "Shiodamari Tanteidan",
+      "title_english": "Tidepool Detectives",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-02T00:00:00+00:00",
+        "to": "2026-09-17T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 17,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 2, 2026 to Sep 17, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.84,
+      "scored_by": 8400,
+      "rank": 1130,
+      "popularity": 1340,
+      "members": 56000,
+      "favorites": 370,
+      "synopsis": "Tidepool Detectives aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2103,
+          "type": "anime",
+          "name": "Hoshizora Works",
+          "url": "https://myanimelist.net/anime/producer/2103/Hoshizora_Works"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60603,
+      "url": "https://myanimelist.net/anime/60603/Semi_Radio",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1783/200603.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1783/200603t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1783/200603l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1783/200603.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1783/200603t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1783/200603l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Semi Radio"
+        },
+        {
+          "type": "English",
+          "title": "Cicada Radio"
+        }
+      ],
+      "title": "Semi Radio",
+      "title_english": "Cicada Radio",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-03T00:00:00+00:00",
+        "to": "2026-09-18T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 3,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 18,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 3, 2026 to Sep 18, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.77,
+      "scored_by": 7800,
+      "rank": 1360,
+      "popularity": 1480,
+      "members": 52000,
+      "favorites": 340,
+      "synopsis": "Cicada Radio aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60604,
+      "url": "https://myanimelist.net/anime/60604/Okujou_Tenmon-bu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1784/200604.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1784/200604t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1784/200604l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1784/200604.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1784/200604t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1784/200604l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Okujou Tenmon-bu"
+        },
+        {
+          "type": "English",
+          "title": "Rooftop Astronomy Club"
+        }
+      ],
+      "title": "Okujou Tenmon-bu",
+      "title_english": "Rooftop Astronomy Club",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-04T00:00:00+00:00",
+        "to": "2026-09-19T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 19,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 4, 2026 to Sep 19, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.7,
+      "scored_by": 7200,
+      "rank": 1590,
+      "popularity": 1620,
+      "members": 48000,
+      "favorites": 310,
+      "synopsis": "Rooftop Astronomy Club aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2101,
+          "type": "anime",
+          "name": "Studio Lumen",
+          "url": "https://myanimelist.net/anime/producer/2101/Studio_Lumen"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60605,
+      "url": "https://myanimelist.net/anime/60605/Hotaru_Kyuukou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1785/200605.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1785/200605t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1785/200605l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1785/200605.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1785/200605t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1785/200605l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hotaru Kyuukou"
+        },
+        {
+          "type": "English",
+          "title": "Firefly Express"
+        }
+      ],
+      "title": "Hotaru Kyuukou",
+      "title_english": "Firefly Express",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-05T00:00:00+00:00",
+        "to": "2026-09-20T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 20,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 5, 2026 to Sep 20, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.61,
+      "scored_by": 6600,
+      "rank": 1820,
+      "popularity": 1760,
+      "members": 44000,
+      "favorites": 280,
+      "synopsis": "Firefly Express aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60606,
+      "url": "https://myanimelist.net/anime/60606/Ao_Ramune_no_Hibi",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1786/200606.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1786/200606t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1786/200606l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1786/200606.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1786/200606t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1786/200606l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Ao Ramune no Hibi"
+        },
+        {
+          "type": "English",
+          "title": "Blue Ramune Days"
+        }
+      ],
+      "title": "Ao Ramune no Hibi",
+      "title_english": "Blue Ramune Days",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-06T00:00:00+00:00",
+        "to": "2026-09-21T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 21,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 6, 2026 to Sep 21, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.43,
+      "scored_by": 6000,
+      "rank": 2050,
+      "popularity": 1900,
+      "members": 40000,
+      "favorites": 250,
+      "synopsis": "Blue Ramune Days aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2104,
+          "type": "anime",
+          "name": "Paper Crane Animation",
+          "url": "https://myanimelist.net/anime/producer/2104/Paper_Crane_Animation"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        },
+        {
+          "mal_id": 36,
+          "type": "anime",
+          "name": "Slice of Life",
+          "url": "https://myanimelist.net/anime/genre/36/Slice_of_Life"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60607,
+      "url": "https://myanimelist.net/anime/60607/Hajō_Kyuu-gou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1787/200607.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1787/200607t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1787/200607l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1787/200607.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1787/200607t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1787/200607l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hajō Kyuu-gou"
+        },
+        {
+          "type": "English",
+          "title": "Wavebreaker Nine"
+        }
+      ],
+      "title": "Hajō Kyuu-gou",
+      "title_english": "Wavebreaker Nine",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-07T00:00:00+00:00",
+        "to": "2026-09-22T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 7,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 22,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 7, 2026 to Sep 22, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.38,
+      "scored_by": 5400,
+      "rank": 2280,
+      "popularity": 2040,
+      "members": 36000,
+      "favorites": 220,
+      "synopsis": "Wavebreaker Nine aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2102,
+          "type": "anime",
+          "name": "Kitsune Arc",
+          "url": "https://myanimelist.net/anime/producer/2102/Kitsune_Arc"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60608,
+      "url": "https://myanimelist.net/anime/60608/Tourou_Matsuri_no_Yuurei",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1788/200608.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1788/200608t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1788/200608l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1788/200608.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1788/200608t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1788/200608l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Tourou Matsuri no Yuurei"
+        },
+        {
+          "type": "English",
+          "title": "Lantern Festival Ghosts"
+        }
+      ],
+      "title": "Tourou Matsuri no Yuurei",
+      "title_english": "Lantern Festival Ghosts",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-08T00:00:00+00:00",
+        "to": "2026-09-23T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 8,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 23,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 8, 2026 to Sep 23, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.25,
+      "scored_by": 4800,
+      "rank": 2510,
+      "popularity": 2180,
+      "members": 32000,
+      "favorites": 190,
+      "synopsis": "Lantern Festival Ghosts aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2106,
+          "type": "anime",
+          "name": "Mori Pictures",
+          "url": "https://myanimelist.net/anime/producer/2106/Mori_Pictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 60609,
+      "url": "https://myanimelist.net/anime/60609/Sango_no_Kanmuri",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1789/200609.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1789/200609t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1789/200609l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1789/200609.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1789/200609t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1789/200609l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": null,
+        "url": null,
+        "embed_url": null,
+        "images": {
+          "image_url": null,
+          "small_image_url": null,
+          "medium_image_url": null,
+          "large_image_url": null,
+          "maximum_image_url": null
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Sango no Kanmuri"
+        },
+        {
+          "type": "English",
+          "title": "Coral Crown"
+        }
+      ],
+      "title": "Sango no Kanmuri",
+      "title_english": "Coral Crown",
+      "title_japanese": null,
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 12,
+      "status": "Finished Airing",
+      "airing": false,
+      "aired": {
+        "from": "2026-07-09T00:00:00+00:00",
+        "to": "2026-09-24T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 9,
+            "month": 7,
+            "year": 2026
+          },
+          "to": {
+            "day": 24,
+            "month": 9,
+            "year": 2026
+          }
+        },
+        "string": "Jul 9, 2026 to Sep 24, 2026"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.12,
+      "scored_by": 4200,
+      "rank": 2740,
+      "popularity": 2320,
+      "members": 28000,
+      "favorites": 160,
+      "synopsis": "Coral Crown aired in summer 2026.",
+      "background": null,
+      "season": "summer",
+      "year": 2026,
+      "broadcast": {
+        "day": null,
+        "time": null,
+        "timezone": null,
+        "string": "Unknown"
+      },
+      "producers": [
+        {
+          "mal_id": 3101,
+          "type": "anime",
+          "name": "Aurora Media",
+          "url": "https://myanimelist.net/anime/3101/Aurora_Media"
+        },
+        {
+          "mal_id": 3103,
+          "type": "anime",
+          "name": "Kawase Broadcasting",
+          "url": "https://myanimelist.net/anime/3103/Kawase_Broadcasting"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 2105,
+          "type": "anime",
+          "name": "Tidewater Studio",
+          "url": "https://myanimelist.net/anime/producer/2105/Tidewater_Studio"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    }
+  ]
+}

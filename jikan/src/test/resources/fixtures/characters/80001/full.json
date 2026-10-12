@@ -1,0 +1,94 @@
+{
+  "data": {
+    "mal_id": 80001,
+    "url": "https://myanimelist.net/character/80001/Kanemori_Aoi",
+    "images": {
+      "jpg": {
+        "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.jpg"
+      },
+      "webp": {
+        "image_url": "https://cdn.myanimelist.net/images/characters/0/80001.webp",
+        "small_image_url": "https://cdn.myanimelist.net/images/characters/0/80001t.webp"
+      }
+    },
+    "name": "Kanemori, Aoi",
+    "name_kanji": "金森 葵",
+    "nicknames": [
+      "Bell Girl"
+    ],
+    "favorites": 3210,
+    "about": "Apprentice bell tuner of Kanehama harbor. Seventeen years old.",
+    "anime": [
+      {
+        "role": "Main",
+        "anime": {
+          "mal_id": 60201,
+          "url": "https://myanimelist.net/anime/60201/Sen_no_Kane_no_Minato",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.jpg",
+              "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.jpg",
+              "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.jpg"
+            },
+            "webp": {
+              "image_url": "https://cdn.myanimelist.net/images/anime/1381/200201.webp",
+              "small_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201t.webp",
+              "large_image_url": "https://cdn.myanimelist.net/images/anime/1381/200201l.webp"
+            }
+          },
+          "title": "Sen no Kane no Minato"
+        }
+      }
+    ],
+    "manga": [
+      {
+        "role": "Main",
+        "manga": {
+          "mal_id": 70001,
+          "url": "https://myanimelist.net/manga/70001/Sen_no_Kane_no_Minato",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/manga/1211/210001.jpg",
+              "small_image_url": "https://cdn.myanimelist.net/images/manga/1211/210001t.jpg",
+              "large_image_url": "https://cdn.myanimelist.net/images/manga/1211/210001l.jpg"
+            },
+            "webp": {
+              "image_url": "https://cdn.myanimelist.net/images/manga/1211/210001.webp",
+              "small_image_url": "https://cdn.myanimelist.net/images/manga/1211/210001t.webp",
+              "large_image_url": "https://cdn.myanimelist.net/images/manga/1211/210001l.webp"
+            }
+          },
+          "title": "Sen no Kane no Minato"
+        }
+      }
+    ],
+    "voices": [
+      {
+        "person": {
+          "mal_id": 90001,
+          "url": "https://myanimelist.net/people/90001/Sakurada_Mio",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/2/90001.jpg"
+            }
+          },
+          "name": "Sakurada, Mio"
+        },
+        "language": "Japanese"
+      },
+      {
+        "person": {
+          "mal_id": 90011,
+          "url": "https://myanimelist.net/people/90011/Ortiz_Rachel",
+          "images": {
+            "jpg": {
+              "image_url": "https://cdn.myanimelist.net/images/voiceactors/5/90011.jpg"
+            }
+          },
+          "name": "Ortiz, Rachel"
+        },
+        "language": "English"
+      }
+    ]
+  }
+}
