@@ -31,18 +31,6 @@ anime.images.large                               // the large WebP cover url
 jikan.animeCharacters(52991).first().voiceActor()?.displayName   // the Japanese voice actor, given name first
 ```
 
-## Screenshots
-
-Captured live from the Jikan API by CI, with the sample app on an Android TV emulator (1080p). Titles, scores, episodes, characters and cover images are real MyAnimeList data as Jikan returned it on the day of the capture; the home screen follows the current season, so it changes from run to run.
-
-**Home:** the hero for the current season's best rated show, then rails for top airing, this season, upcoming and two genres.
-
-<img src="docs/screenshots/tv-home.png" alt="The Android TV home screen: a hero for the current season's best rated show with its score, genres, synopsis, cover and a focused More info button, above a Top airing rail of covers" width="100%">
-
-| Anime detail | Season browser |
-| :---: | :---: |
-| <img src="docs/screenshots/tv-detail.png" alt="The detail screen of Fullmetal Alchemist: Brotherhood: cover, score, rank, popularity and members, genres and synopsis, a row of episodes with the first one focused, and characters with their voice actors" width="420"> | <img src="docs/screenshots/tv-season.png" alt="The summer 2024 season: a row of season choices with Summer 2024 selected, and a grid of covers with the first one focused" width="420"> |
-
 ## Features
 
 - **Jikan v4 coverage**: anime by id and `/full`, characters, staff, episodes (paged, and one episode with its synopsis), recommendations, pictures, statistics; manga by id and `/full`, characters, recommendations; search for anime and manga with `q`, `type`, `status`, `rating`, `genres`, `genres_exclude`, `min_score`, `max_score`, `order_by`, `sort`, `sfw` and more; top anime and manga; seasons now, upcoming, any `{year}/{season}` and the season list; schedules by day; genres; characters and people; random anime and manga.
