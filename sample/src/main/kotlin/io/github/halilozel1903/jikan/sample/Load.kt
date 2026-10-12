@@ -1,5 +1,6 @@
 package io.github.halilozel1903.jikan.sample
 
+import android.util.Log
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -36,14 +37,16 @@ suspend fun <T> load(block: suspend () -> T): Load<T> = try {
     Load.Ready(block())
 } catch (e: CancellationException) {
     throw e
-} catch (e: JikanException.NotFound) {
-    Load.Failed("MyAnimeList has no entry for this.")
-} catch (e: JikanException.RateLimited) {
-    Load.Failed("Jikan asked us to slow down. Wait a moment and try again.")
-} catch (e: JikanException.Network) {
-    Load.Failed("Could not reach the Jikan API. Check the connection.")
 } catch (e: JikanException) {
-    Load.Failed(e.message ?: "The Jikan API returned an error.")
+    Log.w("JikanSample", "Request failed", e)
+    failure(e)
+}
+
+private fun failure(e: JikanException): Load.Failed = when (e) {
+    is JikanException.NotFound -> Load.Failed("MyAnimeList has no entry for this.")
+    is JikanException.RateLimited -> Load.Failed("Jikan asked us to slow down. Wait a moment and try again.")
+    is JikanException.Network -> Load.Failed("Could not reach the Jikan API. Check the connection.")
+    else -> Load.Failed(e.message ?: "The Jikan API returned an error.")
 }
 
 /** Waits one frame, so lazy rows have laid out their items, then moves the focus to [requester]. */

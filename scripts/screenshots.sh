@@ -7,6 +7,7 @@ set -euo pipefail
 source "$(dirname "$0")/screenshot-lib.sh"
 
 install_sample
+wait_for_network api.jikan.moe "https://api.jikan.moe/v4/anime/5114"
 
 # The hero for the current season's best rated show, with the "Top airing" rail below it.
 fresh_launch --es scene home

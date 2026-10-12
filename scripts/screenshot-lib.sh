@@ -5,6 +5,22 @@ PKG="${PKG:-$(grep -oE 'applicationId = "[^"]+"' sample/build.gradle.kts | cut -
 OUT="docs/screenshots"
 mkdir -p "$OUT"
 
+# Scenes need the internet. Checks the API from the runner, then waits until the emulator resolves
+# and reaches it (a freshly booted emulator can take a while to bring its network up).
+wait_for_network() {
+  local host="$1" url="$2"
+  echo "From the runner: $(curl -sS -o /dev/null -w '%{http_code} in %{time_total}s' "$url" || echo failed)"
+  for _ in $(seq 1 30); do
+    if adb shell ping -c 1 -W 3 "$host" 2>&1 | grep -q "bytes from"; then
+      echo "The emulator reaches $host"
+      return 0
+    fi
+    sleep 2
+  done
+  echo "Warning: the emulator does not answer pings to $host:" >&2
+  adb shell ping -c 1 -W 3 "$host" >&2 || true
+}
+
 install_sample() {
   adb install -r sample/build/outputs/apk/debug/sample-debug.apk
   # A freshly booted TV emulator often shows "System UI isn't responding" or a launcher ANR.
@@ -34,6 +50,7 @@ wait_for_scene() {
     if printf '%s' "$log" | grep -q "SCENE_FAILED"; then
       echo "The $scene scene failed to load:" >&2
       printf '%s\n' "$log" | grep "SCENE_" >&2
+      adb logcat -d -t 400 '*:W' | tail -n 80 >&2 || true
       exit 1
     fi
     if printf '%s' "$log" | grep -q "SCENE_READY $scene"; then
@@ -44,7 +61,7 @@ wait_for_scene() {
     sleep 1
   done
   echo "The $scene scene did not finish loading within ${timeout}s." >&2
-  adb logcat -d -t 200 >&2 || true
+  adb logcat -d -t 400 '*:W' | tail -n 80 >&2 || true
   exit 1
 }
 
