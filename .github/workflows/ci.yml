@@ -29,7 +29,9 @@ jobs:
 
   screenshots:
     name: README screenshots
-    if: github.event_name != 'pull_request'
+    # api.jikan.moe drops connections from GitHub-hosted runners, so this job
+    # only runs on demand (e.g. on a runner that can reach the API).
+    if: github.event_name == 'workflow_dispatch'
     needs: build
     runs-on: ubuntu-latest
     permissions:
