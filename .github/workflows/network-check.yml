@@ -1,0 +1,13 @@
+name: Network check
+on: workflow_dispatch
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, macos-15-intel, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Reach api.jikan.moe
+        shell: bash
+        run: curl -sS -o /dev/null -w "%{http_code} %{time_total}s\n" --max-time 40 https://api.jikan.moe/v4/anime/5114
