@@ -1,0 +1,12 @@
+name: Jikan server check
+on:
+  push:
+    branches: [jikan-rest-check]
+jobs:
+  server:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: bash scripts/jikan-server.sh
+      - if: always()
+        run: docker logs jikan 2>&1 | tail -n 80 || true
