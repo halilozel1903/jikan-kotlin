@@ -29,15 +29,19 @@ jobs:
 
   screenshots:
     name: README screenshots
-    # api.jikan.moe drops connections from GitHub-hosted runners, so this job
-    # only runs on demand (e.g. on a runner that can reach the API).
-    if: github.event_name == 'workflow_dispatch'
+    # Live MyAnimeList data. api.jikan.moe drops connections from GitHub-hosted runners, so the job runs
+    # the open source Jikan server (jikan-rest) itself and points the sample's scenes at it.
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 75
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v5
+      - name: Start a Jikan server
+        # jikan-rest with MongoDB in Docker, loaded from MyAnimeList with the anime the screens list.
+        run: bash scripts/jikan-server.sh
       - name: Enable KVM
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -59,7 +63,10 @@ jobs:
           arch: x86
           profile: tv_1080p
           disable-animations: true
-          script: bash scripts/screenshots.sh
+          script: JIKAN_API_URL=http://10.0.2.2:8080/v4/ bash scripts/screenshots.sh
+      - name: Jikan server log
+        if: failure()
+        run: docker logs jikan 2>&1 | tail -n 120 || true
       - name: Commit screenshots
         run: |
           git config user.name "Halil Özel"

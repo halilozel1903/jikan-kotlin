@@ -129,7 +129,8 @@ object Repositories {
     private var live: AnimeRepository? = null
     private var scenes: AnimeRepository? = null
 
-    private fun client(retries: Int) = JikanClient {
+    private fun client(retries: Int, apiUrl: String? = null) = JikanClient {
+        if (apiUrl != null) baseUrl = apiUrl
         // Shares OkHttp with Coil. The client keeps the default limiter (3 per second, 60 per minute), shared by
         // every client in the process.
         engine = OkHttp.create()
@@ -142,7 +143,11 @@ object Repositories {
     @Synchronized
     fun live(): AnimeRepository = live ?: AnimeRepository(client(retries = 2)).also { live = it }
 
-    /** Screenshot scenes: more retries for a busy CI network, and every section must load. */
+    /**
+     * Screenshot scenes: more retries for a busy CI network, and every section must load. [apiUrl] replaces
+     * api.jikan.moe, for the Jikan server CI runs.
+     */
     @Synchronized
-    fun scenes(): AnimeRepository = scenes ?: AnimeRepository(client(retries = 4), strict = true).also { scenes = it }
+    fun scenes(apiUrl: String? = null): AnimeRepository =
+        scenes ?: AnimeRepository(client(retries = 4, apiUrl = apiUrl), strict = true).also { scenes = it }
 }

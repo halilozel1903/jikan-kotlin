@@ -22,11 +22,15 @@ import androidx.tv.material3.darkColorScheme
  * - `home`: the hero for the current season's best rated show and the rails, "More info" focused
  * - `detail`: Fullmetal Alchemist: Brotherhood with its synopsis, score, episodes and characters
  * - `season`: the summer 2024 season grid with the season picker
+ *
+ * With a scene, `--es api <url>` points the client at another Jikan server, such as the jikan-rest server CI runs
+ * for the screenshots (`http://10.0.2.2:8080/v4/` from the emulator). Normal launches always use api.jikan.moe.
  */
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val scene = Scene.from(intent.getStringExtra(EXTRA_SCENE))
+        val apiUrl = intent.getStringExtra(EXTRA_API)
         setContent {
             MaterialTheme(colorScheme = SampleColors) {
                 // The Surface gives every Text a readable default color on the dark background.
@@ -37,7 +41,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     SampleApp(
                         scene = scene,
-                        repository = if (scene != null) Repositories.scenes() else Repositories.live(),
+                        repository = if (scene != null) Repositories.scenes(apiUrl) else Repositories.live(),
                     )
                 }
             }
@@ -46,6 +50,7 @@ class MainActivity : ComponentActivity() {
 
     companion object {
         const val EXTRA_SCENE = "scene"
+        const val EXTRA_API = "api"
     }
 }
 
