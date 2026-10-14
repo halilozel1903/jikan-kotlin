@@ -31,6 +31,18 @@ anime.images.large                               // the large WebP cover url
 jikan.animeCharacters(52991).first().voiceActor()?.displayName   // the Japanese voice actor, given name first
 ```
 
+## Screenshots
+
+Captured by CI from the sample app on an Android TV emulator, with live MyAnimeList data. api.jikan.moe does not answer GitHub-hosted runners, so the CI job starts the open-source [jikan-rest](https://github.com/jikan-me/jikan-rest) server, which loads the same pages from MyAnimeList, and points the sample at it.
+
+**Home:** this season's top airing anime.
+
+<img src="docs/screenshots/tv-home.png" alt="The Android TV home screen: the season's top title in a hero banner above a rail of top airing anime with scores" width="800">
+
+| Anime detail | Season browser |
+| :---: | :---: |
+| <img src="docs/screenshots/tv-detail.png" alt="Fullmetal Alchemist: Brotherhood with score, rank, genres, synopsis, episodes and characters with voice actors" width="400"> | <img src="docs/screenshots/tv-season.png" alt="The summer 2024 season as a grid of posters with scores, with season chips above" width="400"> |
+
 ## Features
 
 - **Jikan v4 coverage**: anime by id and `/full`, characters, staff, episodes (paged, and one episode with its synopsis), recommendations, pictures, statistics; manga by id and `/full`, characters, recommendations; search for anime and manga with `q`, `type`, `status`, `rating`, `genres`, `genres_exclude`, `min_score`, `max_score`, `order_by`, `sort`, `sfw` and more; top anime and manga; seasons now, upcoming, any `{year}/{season}` and the season list; schedules by day; genres; characters and people; random anime and manga.
